@@ -53475,7 +53475,14 @@
     "bySkillCategory": [92005],
     "effects": [{ "type": 208, "method": 0, "value": 1.7 }]
   },
-   "CommentTimeBomb":"Abnormality for Timebomb",
+    "Comment_TimeBombGunnerAbnormal1":"GunnerAbnormal1",
+    "500100001": {
+    "bySkillCategory": [91003],
+    "effects":[ 
+    { "type": 162, "method": 3, "value": 1.2 }
+  ]
+  },
+   "Comment_TimeBomb":"Abnormality for Timebomb",
    "500100002": {
     "bySkillCategory": [91003],
     "effects":[ 
@@ -53484,5 +53491,29 @@
     { "type": 167, "method": 3, "value": 15 }
   
   ]
-}
+},
+ "Comment_ArcaneBarrage1":"ArcaneBarrage1",
+   "500100003": {
+    "bySkillCategory": [0],
+    "effects":[ 
+    { "type": 4, "method": 3, "value": 1 }
+  ]
+  },
+  "Comment_ArcaneBarrage2":"ArcaneBarrage2",
+    "500100004": {
+    "bySkillCategory": [0],
+    "effects":[ 
+    { "type": 4, "method": 3, "value": 1 }
+  ]
+  },
+   "Comment_GunnerPlaceHolder2":"GunnerPlaceHolder2",
+    "500100005": {
+    "bySkillCategory": [0],
+    "effects": [{ "type": 223, "method": 0, "value": 500100006 }]
+  },
+    "Comment_GunnerPlaceHolder3":"GunnerPlaceHolder3",
+    "500100006": {
+    "bySkillCategory": [0],
+    "effects": [{ "type": 24, "method": 3, "value": 1.3 }]
+  }
 }
