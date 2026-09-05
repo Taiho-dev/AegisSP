@@ -2550,11 +2550,29 @@ module.exports = {
 				noInterrupt: [20],
 				level: {
 					9: {
-						releaseChain: {
-							connectSkills: [400102, 400132],
-							chain: 12,
-							grant: true
-						}
+						releaseChain: [
+							{
+							connectSkills: [400102],
+							chain: 91012,
+							grant: true,
+							RequireAbnormal: [10152340,10152354]
+						//	RequirePolishing: [17104101] // add this later which is needed if you switch between Fire/Integration Talyph
+							},
+							{
+							connectSkills: [400132],
+							chain: 93112,
+							grant: true,
+							RequireAbnormal: [10152340],
+							ExcludeAbnormal: [10152354]
+						//	requirePolishing:[17104102],
+							},
+						// For Integration Talyph	
+						// 	connectSkills: [400132],
+						// 	chain: 91012,
+						// 	grant: true,
+						// 	RequireAbnormal: [10152071,101523524],
+						//	requirePolishing:[17104102],
+									]			
 					}
 				}
 			},
@@ -2924,6 +2942,7 @@ module.exports = {
 		},
 		40: { // Rolling Reload / Dashing Reload
 			'*': {
+				//DecoupleTimeRate: true // TODO, makes debugging easier so it matches datacenter files.
 				ignoreAttackSpeed: true,
 				triggerAbnormal: {
 					10152010: 3100,
