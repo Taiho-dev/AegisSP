@@ -3,7 +3,7 @@ Beta/Experimental version.
 How to use? Disable Autoupdate on the mod for now.
 The current SP is missing a lot of client data/abnormalities so a lot of things will not work in the beginning.
 
-Priority is to fix gunner for now.
+Priority is to fix gunner and many skills are currently missing and not being emulated.
 
 ## Skill Prediction
 Simulates skills client-side, eliminating ping-based delays and animation lock.
