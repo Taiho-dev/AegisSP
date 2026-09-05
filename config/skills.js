@@ -2356,9 +2356,8 @@ module.exports = {
 			'*': {
 				moveDir: 1,
 				noInterrupt: [3, 20],
-				},
 				hasChains: true
-			},
+				},
 			1: {
 				glyphs: {
 				 	30007: {
@@ -2449,8 +2448,7 @@ module.exports = {
 					91043: 30,
 					91047: 30
 								}
-				},
-			
+				},	
 			3: {
 				glyphs: {
 				 	30007: {
@@ -2475,12 +2473,12 @@ module.exports = {
 				 			}
 				 		],
 				 		distance: 0.6
-				 	}
-			},
+				 		}
+					},
+				},
 			30: true,
 			32: true
-				
-		},
+		},			
 		4: { // Point Blank
 			'*': {
 				noInterrupt: ['4-3', '4-4'],
