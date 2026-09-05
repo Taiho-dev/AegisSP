@@ -1,9 +1,14 @@
+## General Information
+Modification and continuation based on PinkiPie Skill prediction.
+The keypoint of this mod is to simulate the client close as possible and synchronize the incoming/outgoing packets
+resulting in smoother emulation and greatly reduced desynchronization.
+
 ## Notice!!
 Beta/Experimental version.
 How to use? Disable Autoupdate on the mod for now.
-The current SP is missing a lot of client data/abnormalities so a lot of things will not work in the beginning.
+Currently a lot of skills/abnormalities and bug fixes are missing, therefore it will be buggy and slow most likely.
+Fixes are mostly being applied to Elin Gunner right now.
 
-Priority is to fix gunner and many skills are currently missing and not being emulated.
 
 ## Skill Prediction
 Simulates skills client-side, eliminating ping-based delays and animation lock.
