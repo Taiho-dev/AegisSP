@@ -1,11 +1,11 @@
 {
-    "disableAutoUpdate": false,
-    "name": "skill-prediction",
-    "author": "Pinkie Pie / many others",
+    "disableAutoUpdate": true,
+    "name": "AegisSP - For Arborea",
+    "author": "Pinkie Pie / many others / Updated and modified by Taiho",
     "description": "Simulates skills client-side, eliminating ping-based delays and animation lock.",
     "options": {
-        "cliName": "PSP",
-        "guiName": "Skill Prediction",
+        "cliName": "AegisSP",
+        "guiName": "Aegis Skill Prediction",
         "settingsVersion": 4,
         "settingsFile": "settings.json",
         "settingsMigrator": "migration.js"
