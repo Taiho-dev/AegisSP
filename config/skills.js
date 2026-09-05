@@ -2381,9 +2381,10 @@ module.exports = {
 				 				zRate: 1,
 				 				distance: 64.8
 				 			}
-				 		],
+				 				],
 				 		distance: 0.6
-				 	},
+				 			},
+						},
 				categoryChains: {
 					91002: 30,
 					91003: 30,
@@ -2401,8 +2402,9 @@ module.exports = {
 					91041: 30,
 					91043: 30,
 					91047: 30
-				}
-			},
+						}
+				},		
+				
 			2: {
 				glyphs: {
 				 	30007: {
@@ -2427,7 +2429,8 @@ module.exports = {
 				 			}
 				 		],
 				 		distance: 0.6
-				 	},
+				 		}
+						},
 				categoryChains: {
 					91002: 30,
 					91003: 30,
@@ -2445,7 +2448,9 @@ module.exports = {
 					91041: 30,
 					91043: 30,
 					91047: 30
-				}
+								}
+				},
+			
 			3: {
 				glyphs: {
 				 	30007: {
@@ -2473,7 +2478,7 @@ module.exports = {
 				 	}
 			},
 			30: true,
-			32: {}
+			32: true
 				
 		},
 		4: { // Point Blank
@@ -2570,7 +2575,8 @@ module.exports = {
 				projectiles: [6, 20],
 				triggerAbnormal: {
 					10152010: 3100,
-					10152084: 4100
+					10152084: 4100,
+					500100002: 1000
 				}
 			},
 			1: true,
