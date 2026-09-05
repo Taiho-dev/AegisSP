@@ -2356,34 +2356,34 @@ module.exports = {
 			'*': {
 				moveDir: 1,
 				noInterrupt: [3, 20],
-				glyphs: {
-					30007: {
-						animSeq: [
-							{
-								duration: 394,
-								xyRate: 1,
-								zRate: 1,
-								distance: 0
-							},
-							{
-								duration: 111,
-								xyRate: 1,
-								zRate: 1,
-								distance: 0
-							},
-							{
-								duration: 1333,
-								xyRate: 1.8,
-								zRate: 1,
-								distance: 64.8
-							}
-						],
-						distance: 0.6
-					}
 				},
 				hasChains: true
 			},
 			1: {
+				glyphs: {
+				 	30007: {
+				 		animSeq: [
+							{
+								duration: 394,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+							{
+				 				duration: 111,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+				 			{
+				 				duration: 1333,
+				 				xyRate: 1.8,
+				 				zRate: 1,
+				 				distance: 64.8
+				 			}
+				 		],
+				 		distance: 0.6
+				 	},
 				categoryChains: {
 					91002: 30,
 					91003: 30,
@@ -2392,18 +2392,42 @@ module.exports = {
 					'91007,10001': 30,
 					91009: 30,
 					91010: 30,
-					91011: 30,
+					91011: 3,
 					91013: 30,
-					91015: 30,
+					91015: 3,
 					91018: 30,
 					91019: 30,
-					91040: 30,
+					91040: 3,
 					91041: 30,
 					91043: 30,
 					91047: 30
 				}
 			},
 			2: {
+				glyphs: {
+				 	30007: {
+				 		animSeq: [
+							{
+								duration: 394,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+							{
+				 				duration: 111,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+				 			{
+				 				duration: 1333,
+				 				xyRate: 1.8,
+				 				zRate: 1,
+				 				distance: 64.8
+				 			}
+				 		],
+				 		distance: 0.6
+				 	},
 				categoryChains: {
 					91002: 30,
 					91003: 30,
@@ -2412,18 +2436,45 @@ module.exports = {
 					'91007,10001': 30,
 					91009: 30,
 					91010: 30,
-					91011: 30,
+					91011: 3,
 					91013: 30,
-					91015: 30,
+					91015: 3,
 					91018: 30,
 					91019: 30,
-					91040: 30,
+					91040: 3,
 					91041: 30,
 					91043: 30,
 					91047: 30
 				}
+			3: {
+				glyphs: {
+				 	30007: {
+				 		animSeq: [
+							{
+								duration: 394,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+							{
+				 				duration: 111,
+				 				xyRate: 1,
+				 				zRate: 1,
+				 				distance: 0
+				 			},
+				 			{
+				 				duration: 1333,
+				 				xyRate: 1.8,
+				 				zRate: 1,
+				 				distance: 64.8
+				 			}
+				 		],
+				 		distance: 0.6
+				 	}
 			},
-			30: true
+			30: true,
+			32: {}
+				
 		},
 		4: { // Point Blank
 			'*': {
