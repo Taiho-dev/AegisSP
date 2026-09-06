@@ -10,6 +10,6 @@
         "settingsFile": "settings.json",
         "settingsMigrator": "migration.js"
     },
-    "servers": ["https://raw.githubusercontent.com/tera-private-mods/skill-prediction/master/"],
+    "servers": ["https://raw.githubusercontent.com/Taiho-dev/AegisSP/master/"],
     "conflicts": ["zsync","aa-zsync","cooldowns","cooldowns-master","fastfire","fastfire-master","fast-fire","fast-fire-master","lockons","lockons-master","lockons-light","lockons-light-master","ping-compensation","ping-remover","skill-prediction-master","skill-prediction-plus"]
 }
