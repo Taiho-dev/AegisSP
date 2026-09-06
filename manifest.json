@@ -5,6 +5,7 @@
     "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
     "migration.js": "b7479525dd7257af68594063227698a7ab4a752688024368ef5e740b0700a9ed",
     "module.config.json": "c0a16dfca2dc00eb2f4c5670a98fcc163fd4f85c34b04fe825e6c3e79de88ca1",
+    "module.json": "d272354cb24b038617e21b5b563b802e0be55b691a1e10de3ed1dfa0f45de3e9",
     "package.json": "f661f14ae53eeae6bdc3f0679f27ce4d336907649eca15eba6725703a01fb0a9",
     "README.md": "191594ff86299f0c740bfa17617e3caeed1f80f4ef231024e409454d14415025",
     "settings.json": "31b0f5e1052bbf9cad7c5aef9560627e80cf907391285e202aff700cf89efacf",
@@ -31,5 +32,6 @@
     "lib/player.js": "eec159da78591b22f44592bc745a7d868c81c4497ce4e68113ef2bb3f3143ac9",
     "lib/require.js": "d8fcd57f21ba1cea3d474688c994804b21676c6a4cb6a9dbc4ed929c79a37dac",
     "src/AbnormalityManager.js": "d86a603e47ff3551a7bc3efc1c88f9d93054ba56d714e5c95dab9d54d0a10161"
+    
   }
 }
