@@ -2345,7 +2345,9 @@ module.exports = {
 			}
 		},
 		2: { // Bombardment
-			'*': { noRetry: true },
+			'*': { 
+				cancelLogic: true,			
+				noRetry: true },
 			0: {
 				type: 'lockon',
 				ignoreAttackSpeed: true
@@ -3175,6 +3177,7 @@ module.exports = {
 		},
 		47: { // Obliteration
 			'*': {
+				cancelLogic: true,
 				requiredBuff: 10152340,
 				moveDir: 1,
 				hasChains: true,
