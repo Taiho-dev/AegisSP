@@ -1,0 +1,16 @@
+Aegis SP - For Arborea
+==========
+
+
+Changelog
+======================
+
+[v1.0.1.beta1] - 2026-09-07
+
+[NEW]
+* New Cancel Logic: Problematic skills now correctly use pendingStartTime logic. Fixes desync on Balders Vengeance when used after Obliteration and Bombardment.
+* Improved chain from rolling Reload -> Mana missile. Smoother chain and queues up Mana Missile.
+[FIXES]
+* Balders vengeance will no longer be rejected by the server after using Obliteration and Bombardment.
+* Corrected Rolling Reload -> Mana Missile logic. No longer uses the wrong skill id.
+
