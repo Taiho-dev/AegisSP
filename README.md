@@ -5,10 +5,9 @@ resulting in smoother emulation and greatly reduced desynchronization.
 
 ## Notice!!
 Beta/Experimental version.
-How to use? Disable Autoupdate on the mod for now.
 Currently a lot of skills/abnormalities and bug fixes are missing, therefore it will be buggy and slow most likely.
+Some skills might be faster because they are closer to what the client does.
 Fixes are mostly being applied to Elin Gunner right now.
-
 
 ## Skill Prediction
 Simulates skills client-side, eliminating ping-based delays and animation lock.
