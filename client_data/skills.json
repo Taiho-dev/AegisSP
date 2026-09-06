@@ -399401,11 +399401,11 @@
       "timeRate": 0.9,
       "skillPendingType": "rearCancel",
       "pendingStartTime": 577,
-     "rearCancelStartTime": 733.33,
+      "rearCancelStartTime": 733.33,
       "length": 1739,
       "distance": 0
     },
-        "31132": {
+    "31132": {
       "category": [91003, 22, 102, 710, 9001, 9012, 9999],
       "dcType": "normal",
       "timeRate": 0.9,
@@ -399976,30 +399976,30 @@
     "51010": {
       "category": [91005, 22, 102, 710, 9001, 9012, 10000, 9999],
       "dcType": "combo_instance",
-      "timeRate": 1.25,
+      "timeRate": 1.45,
       "skillPendingType": "immediateCancel",
-      "rearCancelStartTime": 400,
-      "length": 860
+      "rearCancelStartTime": 344.827,
+      "length": 741.379
     },
     "51011": {
       "category": [91005, 22, 9001, 9012, 10001, 9999],
       "dcType": "combo_instance",
-      "timeRate": 1.3,
-      "length": 127
+      "timeRate": 1.45,
+      "length": 113.862
     },
     "51020": {
       "category": [91005, 707, 22, 102, 710, 9001, 9012, 10000, 9999],
       "dcType": "combo_instance",
-      "timeRate": 1.25,
+      "timeRate": 1.45,
       "skillPendingType": "immediateCancel",
-      "rearCancelStartTime": 400,
-      "length": 860
+      "rearCancelStartTime": 344.827,
+      "length": 741.379
     },
     "51021": {
       "category": [91005, 707, 22, 9001, 9012, 10001, 9999],
       "dcType": "combo_instance",
-      "timeRate": 1.3,
-      "length": 127
+      "timeRate": 1.45,
+      "length": 113.862
     },
     "51031": {
       "category": [91005, 21, 102, 710, 9012, 9999],
