@@ -3,11 +3,10 @@
     ".gitignore": "a8d9b307d1f547103d6e0481bfa8964527e83b00133281098fdcae8d1110e29a",
     "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
     "migration.js": "b7479525dd7257af68594063227698a7ab4a752688024368ef5e740b0700a9ed",
-    "module.config.json": "c0a16dfca2dc00eb2f4c5670a98fcc163fd4f85c34b04fe825e6c3e79de88ca1",
     "module.json": "d272354cb24b038617e21b5b563b802e0be55b691a1e10de3ed1dfa0f45de3e9",
     "package.json": "f661f14ae53eeae6bdc3f0679f27ce4d336907649eca15eba6725703a01fb0a9",
     "README.md": "56f8a6363ec554308d632121b1bd5cd32717783aa71cb32668898184aedbfffb",
-    "settings.json": "047249db9ea11705c41e5e4054b7d937cc6f6ebd83ac5452757ab148200c1df0",
+    "settings.json": "31b0f5e1052bbf9cad7c5aef9560627e80cf907391285e202aff700cf89efacf",
     "client_data/abnormality.json": "d365eab24e45b0c743bf2e22afe6385088f5a0735ea6985d215582b07e54f8d4",
     "client_data/ep.json": "c853bc7b2672d94134243269b334983ba44a288cec248653796d69bf28535748",
     "client_data/ep_pog.json": "14e0d4bc19c35ca180cfcad8b4a350119c99e9a5122bea6c24a6bfd4475f3d1f",
@@ -22,14 +21,12 @@
     "lib/cooldowns.js": "d0d055bd6a8a45d4dfe10e1c7e7802e39a2c8eab01d111d087768d587a7c5f2d",
     "lib/core.js": "db970fc107eb3292a3a9468cd19278f152adbe40198c77f59fe1ee167eefcdbc",
     "lib/debug.js": "e588440fd11eb3d7eb84b15789df92b7f15d9d560ec2f7ef8597c384e402efb7",
-    "lib/Glyphs.js": "f16c0ab5652689125e6b9f305513e811b09cb3171cd048b9b222568f26e40578",
+    "lib/EP": "ceebcb4c4e3498abe9b573f19f7c3ce3a1de8049ef421f6bab4ca2da484e765d",
+    "lib/glyphs.js": "f16c0ab5652689125e6b9f305513e811b09cb3171cd048b9b222568f26e40578",
     "lib/index.js": "dded72ea79f9aa060722e1d904a6e842fbca80315fdbcdf6bdda8fa38f8e96fa",
     "lib/ping.js": "72685743a006c63a839fdff8f9b448e3e31ccfda534acbd3c1396f5eb4e8e994",
-    "lib/player.js": "f48cf9c29f54aa1d77ac5b4cbc75c6c169afc0cdf9e973695f7dcabaedde41bc",
+    "lib/player.js": "eec159da78591b22f44592bc745a7d868c81c4497ce4e68113ef2bb3f3143ac9",
     "lib/require.js": "d8fcd57f21ba1cea3d474688c994804b21676c6a4cb6a9dbc4ed929c79a37dac",
-    "src/AbnormalityManager.js": "d86a603e47ff3551a7bc3efc1c88f9d93054ba56d714e5c95dab9d54d0a10161",
-    "src/Main.js": "f7e963001dedede3882275294be8005f31808e764fca6b7259ed269cf5e4a613",
-    "src/Network.js": "44ce37ca397cd081151ef58a43f28bb56d37bb35447d01ba07673228e417f690",
-    "src/PassivityManager.js": "34d1484f3b37a9b7493341cd18c0742580b99f4099f4da98954f2a5b746e1b31"
+    "src/AbnormalityManager.js": "d86a603e47ff3551a7bc3efc1c88f9d93054ba56d714e5c95dab9d54d0a10161"
   }
 }

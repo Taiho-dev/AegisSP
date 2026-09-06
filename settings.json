@@ -2,7 +2,7 @@
     "version": 4,
     "data": {
         "skills": {
-            "jitterCompensation": true,
+            "jitterCompensation": false,
             "retryCount": 3,
             "retryMs": 25,
             "longRetryCount": 5,
@@ -20,7 +20,7 @@
             "maxHistory": 30
         },
         "debug": {
-            "skills": true,
+            "skills": false,
             "loc": false,
             "glyphs": false,
             "projectiles": false,
