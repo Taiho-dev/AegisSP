@@ -2609,6 +2609,7 @@ module.exports = {
 				noInterrupt: [20],
 				level: {
 					9: {
+						chargeLevels: [91010,91011],
 						releaseChain: [
 							{
 							connectSkills: [400102],
