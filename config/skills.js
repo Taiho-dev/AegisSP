@@ -2573,8 +2573,12 @@ module.exports = {
 				projectiles: [6, 20],
 				triggerAbnormal: {
 					10152010: 3100,
-					10152084: 4100,
-					500100002: 1000
+					10152084: 4100
+	
+				},
+				TriggerPreCalculateSpeedAbnormals:
+				{
+					500100002: 3100
 				}
 			},
 			1: true,
@@ -3006,7 +3010,9 @@ module.exports = {
 				},
 				forceClip: true
 			},
-			1: { abnormalChains: { 10152354: 31 } },
+			1: { 
+				
+				abnormalChains: { 10152354: 31 } },
 			2: { abnormalChains: { 10152354: 32 } },
 			31: {
 				consumeAbnormal: 10152354,
