@@ -387099,99 +387099,99 @@
     "80601": {
       "category": [6008, 22, 102, 9012, 10000, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
-      "pendingStartTime": 250,
-      "rearCancelStartTime": 250,
-      "length": 433
+      "timeRate": 1.15,
+      "pendingStartTime": 217.391,
+      "rearCancelStartTime": 217.391,
+      "length": 376.521
     },
     "80602": {
       "category": [6008, 22, 102, 9012, 10001, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 600
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 521.739
     },
     "80603": {
       "category": [6008, 22, 102, 9012, 10002, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 700
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 521.739
     },
     "80604": {
       "category": [6008, 22, 102, 9012, 10003, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 800
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 695.652
     },
     "80605": {
       "category": [6008, 22, 102, 9012, 10004, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 700
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 521.739
     },
     "80606": {
       "category": [6008, 22, 102, 9012, 10005, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 800
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 695.652
     },
     "80607": {
       "category": [6008, 22, 102, 9012, 10006, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 800,
-      "rearCancelStartTime": 350,
-      "length": 1233
+      "pendingStartTime": 695.652,
+      "rearCancelStartTime": 304.347,
+      "length": 695.652
     },
     "80611": {
       "category": [6008, 22, 102, 9012, 10000, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
-      "pendingStartTime": 250,
-      "rearCancelStartTime": 250,
+      "timeRate": 1.15,
+      "pendingStartTime": 217.391,
+      "rearCancelStartTime": 217.391,
       "length": 433
     },
     "80612": {
       "category": [6008, 22, 102, 9012, 10001, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 600
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 521.739
     },
     "80613": {
       "category": [6008, 22, 102, 9012, 10002, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 700
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 608.695
     },
     "80614": {
       "category": [6008, 22, 102, 9012, 10003, 9999, 666, 331, 333],
       "dcType": "combo_instance",
-      "timeRate": 1,
+      "timeRate": 1.15,
       "skillPendingType": "immediateCancel",
-      "pendingStartTime": 160,
-      "rearCancelStartTime": 160,
-      "length": 800
+      "pendingStartTime": 139.130,
+      "rearCancelStartTime": 139.130,
+      "length": 695.652
     },
     "80700": {
       "category": [6008, 22, 102, 9012, 10000, 9999, 666, 331, 333],
