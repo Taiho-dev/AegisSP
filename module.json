@@ -1,11 +1,11 @@
 {
     "disableAutoUpdate": true,
-    "name": "AegisSP - For Arborea",
+    "name": "AegisSP - For Arborea Reborn",
     "author": "Pinkie Pie / many others / Updated and modified by Taiho",
-    "description": "Simulates skills client-side, eliminating ping-based delays and animation lock.",
+    "description": "Improved Skill prediction for Arborea Reborn",
     "options": {
         "cliName": "AegisSP",
-        "guiName": "Aegis Skill Prediction",
+        "guiName": "Aegis Skill Prediction for Arborea Reborn [Beta]",
         "settingsVersion": 4,
         "settingsFile": "settings.json",
         "settingsMigrator": "migration.js"
