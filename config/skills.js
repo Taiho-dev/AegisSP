@@ -2647,23 +2647,47 @@ module.exports = {
 							connectSkills: [400102],
 							chain: 91012,
 							grant: true,
-							RequireAbnormal: [10152340,10152354]
-						//	RequirePolishing: [17104101] // add this later which is needed if you switch between Fire/Integration Talyph
+							RequireAbnormal: [10152340,10152354],
+							requirePolishing:[17104101]
 							},
 							{
 							connectSkills: [400132],
 							chain: 93112,
 							grant: true,
 							RequireAbnormal: [10152340],
-							ExcludeAbnormal: [10152354]
-						//	requirePolishing:[17104102],
+							ExcludeAbnormal: [10152354],
+							requirePolishing:[17104101]
 							},
-						// For Integration Talyph	
-						// 	connectSkills: [400132],
-						// 	chain: 91012,
-						// 	grant: true,
-						// 	RequireAbnormal: [10152071,101523524],
-						//	requirePolishing:[17104102],
+							{
+							connectSkills: [400102],
+							chain: 91012,
+							grant: true,
+							RequireAbnormal: [10152340,10152354],
+							requirePolishing:[17104102]
+							},
+							{
+						 	connectSkills: [400132],
+						 	chain: 91012,
+						 	grant: true,
+						 	RequireAbnormal: [10152340],
+							ExcludeAbnormal: [10152354],
+							requirePolishing:[17104102]
+							},
+							{
+							connectSkills: [400102],
+							chain: 91012,
+							grant: true,
+							RequireAbnormal: [10152340,10152354],
+							requirePolishing:[17104103]
+							},
+							{
+						 	connectSkills: [400132],
+						 	chain: 91012,
+						 	grant: true,
+						 	RequireAbnormal: [10152340],
+							ExcludeAbnormal: [10152354],
+							requirePolishing:[17104103]
+							}
 									]			
 					}
 				}
