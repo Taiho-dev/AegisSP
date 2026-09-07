@@ -4,6 +4,14 @@ Aegis SP - For Arborea
 
 Changelog
 ======================
+[v1.0.1.beta2] - 2026-09-07
+
+[NEW]
+* Cancel Logic: Supports skill queue! So you no longer have to spam it. You can delete your macro's in the future.
+
+[Fixes]
+!! Rapid fire should also work properly now, need fine tuning. Only for Elin.
+
 
 [v1.0.1.beta1] - 2026-09-07
 
