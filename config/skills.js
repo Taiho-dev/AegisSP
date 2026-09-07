@@ -1223,7 +1223,9 @@ module.exports = {
 			}
 		},
 		8: { // Rapid Fire
-			'*': { noRetry: true },
+			'*': { 
+				cancelLogic: true,
+				noRetry: true },
 			0: { noInterrupt: [6] },
 			1: {
 				level: {
@@ -2340,7 +2342,8 @@ module.exports = {
 				hasChains: true
 			},
 			1: true,
-			2: { noRetry: true },
+			2: { noRetry: true,
+			 },
 			20: {
 				type: 'userProjectile',
 				flyingSpeed: 800,
