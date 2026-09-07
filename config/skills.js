@@ -3236,6 +3236,7 @@ module.exports = {
 			'*': {
 				cancelLogic: true,
 				requiredBuff: 10152340,
+				pendingStartTime: 2300,
 				moveDir: 1,
 				hasChains: true,
 				noInterrupt: [20, 47]
