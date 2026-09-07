@@ -3,6 +3,8 @@ Modification and continuation based on PinkiPie Skill prediction.
 The keypoint of this mod is to simulate the client close as possible and synchronize the incoming/outgoing packets
 resulting in smoother emulation and greatly reduced desynchronization.
 
+!!Disable AutoUpdate if you have update issues due to github being delayed sometimes.
+
 ## Notice!!
 Beta/Experimental version.
 Currently a lot of skills/abnormalities and bug fixes are missing, therefore it will be buggy and slow most likely.
