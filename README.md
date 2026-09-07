@@ -11,6 +11,12 @@ Currently a lot of skills/abnormalities and bug fixes are missing, therefore it 
 Some skills might be faster because they are closer to what the client does.
 Fixes are mostly being applied to Elin Gunner right now.
 
+## Contribution
+
+Feel free to contribute, refrain from using AI code as they tend to be messy and buggy.
+AI assisted code is fine as long the code is understandable and easy to read.
+Make sure to read the files inside library mod folder as they contain a lot of useful information.
+
 ## Skill Prediction
 Simulates skills client-side, eliminating ping-based delays and animation lock.
 
