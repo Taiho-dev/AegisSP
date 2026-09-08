@@ -2613,7 +2613,7 @@ module.exports = {
 				},
 				TriggerPreCalculateSpeedAbnormals:
 				{
-					500100002: 3100
+					500100002: 3100,
 				}
 			},
 			1: true,
@@ -2631,8 +2631,8 @@ module.exports = {
 				noRetry: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
-					30049 : 3100,
-					requireGlyphs: 30050 
+					30050 : 3100,
+					requireGlyphs: 30049 
 				}
 			},
 			2: {
@@ -2642,8 +2642,8 @@ module.exports = {
 				noRetry: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
-					30049 : 3100,
-					requireGlyphs: 30050 
+					30050 : 3100,
+					requireGlyphs: 30049 
 				}
 			},
 			3: {
