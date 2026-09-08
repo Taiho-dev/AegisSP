@@ -27,7 +27,7 @@
     "lib/glyphs.js": "f16c0ab5652689125e6b9f305513e811b09cb3171cd048b9b222568f26e40578",
     "lib/index.js": "dded72ea79f9aa060722e1d904a6e842fbca80315fdbcdf6bdda8fa38f8e96fa",
     "lib/ping.js": "72685743a006c63a839fdff8f9b448e3e31ccfda534acbd3c1396f5eb4e8e994",
-    "lib/player.js": "eec159da78591b22f44592bc745a7d868c81c4497ce4e68113ef2bb3f3143ac9",
+    "lib/player.js": "9dc989575d2386e8a690d7dfe6a1f8696f6e36b001abfa7e4a2af69cbbb6ee23",
     "lib/require.js": "d8fcd57f21ba1cea3d474688c994804b21676c6a4cb6a9dbc4ed929c79a37dac",
     "src/AbnormalityManager.js": "d86a603e47ff3551a7bc3efc1c88f9d93054ba56d714e5c95dab9d54d0a10161"
   }
