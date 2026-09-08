@@ -2613,7 +2613,7 @@ module.exports = {
 				},
 				TriggerPreCalculateSpeedAbnormals:
 				{
-					500100002: 3100
+					500100002: 3100,
 				}
 			},
 			1: true,
@@ -2628,15 +2628,32 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true
+				noRetry: true,
+				TriggerPreCalculateSpeedAbnormals:
+				{
+					30049 : 3100,
+					requireGlyphs: 30050 
+				}
 			},
 			2: {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true
+				noRetry: true,
+				TriggerPreCalculateSpeedAbnormals:
+				{
+					30049 : 3100,
+					requireGlyphs: 30050 
+				}
 			},
-			3: { noInterrupt: ['7-3'] }
+			3: {
+				//emulates it closely. it will refresh either way 
+				TriggerPreCalculateSpeedAbnormals:
+				{
+					500100006  : 4000,
+					requireGlyphs: 30049 
+				},
+				noInterrupt: ['7-3'] }
 		},
 		9: { // Mana Missiles
 			'*': { moveDir: 1 },
