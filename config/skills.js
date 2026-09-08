@@ -2613,7 +2613,7 @@ module.exports = {
 				},
 				TriggerPreCalculateSpeedAbnormals:
 				{
-					500100002: 3100,
+					500100002: 3100
 				}
 			},
 			1: true,
