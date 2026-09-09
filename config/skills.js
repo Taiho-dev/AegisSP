@@ -1436,8 +1436,7 @@ module.exports = {
 						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
 					},
 					31: {
-						length: 900, // the server really does this
-						ignoreAttackSpeed: true,
+						lockAnimSpeed: true,
 						cooldownEnd: 100
 					}
 				}
