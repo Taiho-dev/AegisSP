@@ -2352,7 +2352,9 @@ module.exports = {
 				hasChains: true
 			},
 			1: true,
-			2: { noRetry: true,
+			2: { 
+				lockAnimSpeed: true,
+				noRetry: true
 			 },
 			20: {
 				type: 'userProjectile',
