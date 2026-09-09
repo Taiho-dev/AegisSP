@@ -1490,9 +1490,9 @@ module.exports = {
 		},
 		28: { // Mana Charge / Divine Charge
 			0: {
-				length: [800,800,800,3200],
+				length: [800,800,800],
 				chargeLevels: [280210, 280211, 280212,280213],
-				noSkipStageCharge: true
+				autoRelease: 6000
 			},
 			10: { noRetry: true },
 			11: { noRetry: true },
@@ -2352,9 +2352,7 @@ module.exports = {
 				hasChains: true
 			},
 			1: true,
-			2: { 
-				lockAnimSpeed: true,
-				noRetry: true
+			2: { noRetry: true,
 			 },
 			20: {
 				type: 'userProjectile',
