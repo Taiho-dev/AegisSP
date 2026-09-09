@@ -1365,7 +1365,9 @@ module.exports = {
 			0: true
 		},
 		6: { // Arise
-			0: true
+			0: true,
+			1: true,
+			30: true
 		},
 		8: { // Mana Infusion
 			0: true
@@ -1426,12 +1428,16 @@ module.exports = {
 				type: 'lockonCast',
 				level: { 
 					29: {
-						ignoreAttackSpeed: true,
+						ignoreAttackSpeed: false,
 						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
 					},
 					30: {
 						ignoreAttackSpeed: true,
 						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
+					},
+					31: {
+						ignoreAttackSpeed: true,
+						cooldownEnd: 100
 					}
 				}
 			}
@@ -1483,7 +1489,11 @@ module.exports = {
 			30: true
 		},
 		28: { // Mana Charge / Divine Charge
-			0: true,
+			0: {
+				length: [800,800,800,3200],
+				chargeLevels: [280210, 280211, 280212,280213],
+				noSkipStageCharge: true
+			},
 			10: { noRetry: true },
 			11: { noRetry: true },
 			12: { noRetry: true },
