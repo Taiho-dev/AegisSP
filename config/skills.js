@@ -1188,8 +1188,13 @@ module.exports = {
 			10: { type: 'lockonCast' }
 		},
 		3: { // Radiant Arrow
-			'*': { moveDir: 1 },
-			0: true,
+			'*': {
+				moveDir: 1 },
+			0:  {
+				length: [600,600,600],
+				chargeLevels: [31110,31111,31112,31113],
+				autoRelease: 3000
+			},
 			10: { noRetry: true },
 			11: { noRetry: true },
 			12: { noRetry: true },
@@ -1237,7 +1242,13 @@ module.exports = {
 			4: true,
 			5: true,
 			6: true,
-			7: true,
+			7: {
+				delayAfter: {
+					targetSkill: 80607,
+					delay: 200,
+				},
+
+			},
 			11: true,
 			12: true,
 			13: true,
