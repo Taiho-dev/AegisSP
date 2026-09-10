@@ -22,7 +22,7 @@
     "lib/commands.js": "88ad8919eb166a7cd0cba4aae9a3c2981219f45f486f97a4ec63d4ef48feb095",
     "lib/cooldowns.js": "d0d055bd6a8a45d4dfe10e1c7e7802e39a2c8eab01d111d087768d587a7c5f2d",
     "lib/core.js": "22528a6b490d2af7d25e2638f3795e1719affcb587b3ea6bde251f11bfbacfcc",
-    "lib/debug.js": "bfe8920389a632eed09eb53775e82b26573e79d6e9ac3efbd6084d963bbf9675",
+    "lib/debug.js": "8eb405ba180460cd88bd073db81c9f93be2b399f90e0d8b5bddb552036b0b175",
     "lib/EP": "ceebcb4c4e3498abe9b573f19f7c3ce3a1de8049ef421f6bab4ca2da484e765d",
     "lib/glyphs.js": "f16c0ab5652689125e6b9f305513e811b09cb3171cd048b9b222568f26e40578",
     "lib/index.js": "dded72ea79f9aa060722e1d904a6e842fbca80315fdbcdf6bdda8fa38f8e96fa",
