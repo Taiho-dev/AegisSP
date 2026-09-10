@@ -310,11 +310,14 @@ module.exports = {
 					18: 30
 				},
 				categoryChains: {
-					2001: 30
+					2001: 30,
+					2005: 30,
+					2018: 30
 				}
 
 			},
-			30: true
+			30: true,
+
 		},
 		4: { // Challenging Shout
 			'*': { noInterrupt: [4, 9, 12, 23, 24, 26] },
@@ -375,6 +378,7 @@ module.exports = {
 				consumeAbnormalEnd: 201831
 			},
 			0: {
+				abnormalChains: {500020002: 30},
 				noInterrupt: ["1-0", "1-1", 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
 					1: 30,
@@ -403,12 +407,15 @@ module.exports = {
 		},
 		18: { // Shield Barrage
 			"*": {
-				triggerAbnormal: { 201831: 2000 },
+				triggerAbnormal: { 201831: 2000,
+				500020002: 2250
+
+				 },
 				consumeAbnormalEnd: 201831,
 				noInterrupt: [18]
 			},
-			0: true,
-			1: true
+			0: {length: 608},
+			1: {length: 833}
 		},
 		19: { // Pledge of Protection
 			0: { ignoreAttackSpeed: true }
@@ -1242,7 +1249,9 @@ module.exports = {
 			4: true,
 			5: true,
 			6: true,
-			7: true,
+			7: {
+				length: 1333
+				},
 			11: true,
 			12: true,
 			13: true,
@@ -3268,7 +3277,8 @@ module.exports = {
 			'*': {
 				cancelLogic: true,
 				requiredBuff: 10152340,
-				pendingStartTime: 2300,
+				pendingStartTime: 2200,
+				rearCancelStartTime: 3800,
 				moveDir: 1,
 				hasChains: true,
 				noInterrupt: [20, 47]
