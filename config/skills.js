@@ -1242,13 +1242,7 @@ module.exports = {
 			4: true,
 			5: true,
 			6: true,
-			7: {
-				delayAfter: {
-					targetSkill: 80607,
-					delay: 200,
-				},
-
-			},
+			7: true,
 			11: true,
 			12: true,
 			13: true,
