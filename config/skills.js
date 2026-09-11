@@ -302,7 +302,9 @@ module.exports = {
 			40: { level: { 1: { stamina: 37 } } }
 		},
 		3: { // Onslaught
-			'*': { noInterrupt: [3, 4, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29] },
+			'*': { 	noInterrupt: [3, 4, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29],
+					consumeAbnormal: 22060
+				 },
 			0: {
 				chains: {
 					1: 30,
@@ -339,7 +341,14 @@ module.exports = {
 			30: true
 		},
 		5: { // Shield Bash
-			1: true,
+			1: {
+				triggerAbnormalGlyphs: {
+				requiredGlyphs: 22035,
+				abnormals: {
+					22060: 5000
+						}
+					}
+				},
 			2: { chains: { 10: 30 } },
 			30: true
 		},
@@ -1257,7 +1266,7 @@ module.exports = {
 			5: true,
 			6: true,
 			7: {
-				length: 1333
+				length: 1033
 				},
 			11: true,
 			12: true,
