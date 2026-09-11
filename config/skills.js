@@ -347,7 +347,9 @@ module.exports = {
 			0: true
 		},
 		8: { // Shield Counter
-			0: { onlyDefenceSuccess: true }
+			0: { onlyDefenceSuccess: true,
+				// predictAbnormal:
+			 }
 		},
 		9: { // Leash
 			0: true
@@ -389,7 +391,12 @@ module.exports = {
 					21: 30
 				}
 			},
-			30: true
+			30: {
+				cancelLogic: true,
+				refineChainLogic: true,
+				pendingStartTime: 500
+
+			}
 		},
 		15: { // Charging Lunge
 			0: {
