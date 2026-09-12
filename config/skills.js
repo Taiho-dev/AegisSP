@@ -400,12 +400,7 @@ module.exports = {
 					21: 30
 				}
 			},
-			30: {
-				cancelLogic: true,
-				refineChainLogic: true,
-				pendingStartTime: 500
-
-			}
+			30: true
 		},
 		15: { // Charging Lunge
 			0: {
@@ -1216,7 +1211,7 @@ module.exports = {
 			0:  {
 				length: [600,600,600],
 				chargeLevels: [31110,31111,31112,31113],
-				autoRelease: 3000
+				autoRelease: 2500
 			},
 			10: { noRetry: true },
 			11: { noRetry: true },
@@ -1225,14 +1220,21 @@ module.exports = {
 		},
 		4: { // Penetrating Arrow
 			'*': { moveDir: 1 },
-			0: true,
+			0: {chargeLevels: [41210,41211,41212,41213],
+				autoRelease: 2500
+
+			},
 			10: { noRetry: true },
 			11: { noRetry: true },
 			12: { noRetry: true },
 			13: { noRetry: true }
 		},
 		5: { // Rain of Arrows
-			0: true
+			0: true,
+			50: {
+				length: 3133,
+				timeRate: 1.3
+			},
 		},
 		6: { // Backstep
 			0: {
@@ -1251,27 +1253,86 @@ module.exports = {
 			}
 		},
 		8: { // Rapid Fire
-			'*': { 
-				cancelLogic: true,
-				noRetry: true },
+			'*': {
+				connectChains:{
+				80601: 80602,	
+				80602: 80603,
+				80603: 80604,
+				80604: 80605,
+				80605: 80606,
+				80606: 80607,
+				
+				80611: 80612,
+				80612: 80613,
+				80613: 80614
+
+				},
+			
+			//	cancelLogic: false,
+				noRetry: true 
+			},
 			0: { noInterrupt: [6] },
 			1: {
+				timeRate: 1.15,
+				length: 533,
+				pendingStartTime: 250,
+				rearCancelStartTime: 250,
 				level: {
 					5: { noInterrupt: [6] }
 				}
 			},
-			2: true,
-			3: true,
-			4: true,
-			5: true,
-			6: true,
-			7: {
-				length: 1033
-				},
-			11: true,
-			12: true,
-			13: true,
-			14: true
+			2: {timeRate: 1.15,
+				length: 376.522,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			3: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			4: {timeRate: 1.15,
+				length: 11159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			5: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			6: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			7: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 800,
+				rearCancelStartTime: 350
+			},
+			11: {
+				timeRate: 1.15,
+				length: 376.522,
+				pendingStartTime: 250,
+				rearCancelStartTime: 250
+			},
+			12: {
+				timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			13: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
+			},
+			14: {timeRate: 1.15,
+				length: 1159.130,
+				pendingStartTime: 160,
+				rearCancelStartTime: 500
+				}
 		},
 		9: { // Slow Trap
 			0: true
@@ -1344,9 +1405,9 @@ module.exports = {
 				inPlace: {
 					animSeq: [{
 						duration: 766,
-						xyRate: 1,
+						xyRate: 2,
 						zRate: 1,
-						distance: 0
+						distance: 0.0117875
 					}],
 					distance: 0
 				}
@@ -1364,7 +1425,11 @@ module.exports = {
 			0: true
 		},
 		36: { // Gust Arrow
-			0: { chargeLevels: [null, 360213] },
+			0: { chargeLevels: [360210, 360213], 
+				length: 2980,
+				autoRelease: 100
+
+			},
 			13: { noRetry: true }
 		}
 	},
@@ -3260,26 +3325,36 @@ module.exports = {
 		},
 		44: { // Balder's Vengeance (Modular Weapon System)
 			'*': {
+				//TO DO 
+				//retryforProjectiles: true,
+				noRetry: true,
 				noInterrupt: [20, 44],
-				moveDir: 1,
-				noRetry: true
+				moveDir: 1
 			},
 			1: {
 				categoryChains: {
+					91001: 30,
 					91002: 30,
 					91003: 30,
 					91004: 30,
 					91005: 30,
-					'91007,10001': 30,
+					91006: 30,
+					91007: 30,
+					91008: 30,
 					91009: 30,
 					91010: 30,
 					91011: 30,
-					91013: 30,
+					91012: 30,
+					//91013: 30,
+					91014: 30,
 					91015: 30,
+					91016: 30,
+					91017: 30,
 					91018: 30,
 					91019: 30,
 					91040: 30,
 					91041: 30,
+					91042: 30,
 					91043: 30,
 					91047: 30
 				}
@@ -3291,6 +3366,7 @@ module.exports = {
 		},
 		47: { // Obliteration
 			'*': {
+				length: 5299,
 				cancelLogic: true,
 				requiredBuff: 10152340,
 				pendingStartTime: 2200,
@@ -3301,40 +3377,56 @@ module.exports = {
 			},
 			1: {
 				categoryChains: {
+					91001: 30,
 					91002: 30,
 					91003: 30,
 					91004: 30,
 					91005: 30,
-					'91007,10001': 30,
+					91006: 30,
+					91007: 30,
+					91008: 30,
 					91009: 30,
 					91010: 30,
 					91011: 30,
-					91013: 30,
+					91012: 30,
+					//91013: 30,
+					91014: 30,
 					91015: 30,
+					91016: 30,
+					91017: 30,
 					91018: 30,
 					91019: 30,
 					91040: 30,
 					91041: 30,
+					91042: 30,
 					91043: 30,
 					91047: 30
 				}
 			},
 			2: {
 				categoryChains: {
+					91001: 30,
 					91002: 30,
 					91003: 30,
 					91004: 30,
 					91005: 30,
-					'91007,10001': 30,
+					91006: 30,
+					91007: 30,
+					91008: 30,
 					91009: 30,
 					91010: 30,
 					91011: 30,
-					91013: 30,
+					91012: 30,
+					//91013: 30,
+					91014: 30,
 					91015: 30,
+					91016: 30,
+					91017: 30,
 					91018: 30,
 					91019: 30,
 					91040: 30,
 					91041: 30,
+					91042: 30,
 					91043: 30,
 					91047: 30
 				}
