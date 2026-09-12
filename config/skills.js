@@ -1255,16 +1255,16 @@ module.exports = {
 		8: { // Rapid Fire
 			'*': {
 				connectChains:{
-				80601: 80602,	
-				80602: 80603,
-				80603: 80604,
-				80604: 80605,
-				80605: 80606,
-				80606: 80607,
+				80601: { connectToID: 80602, type: 'pending' },   
+				80602: { connectToID: 80603, type: 'pending' },
+				80603: { connectToID: 80604, type: 'pending' },
+				80604: { connectToID: 80605, type: 'pending' },
+				80605: { connectToID: 80606, type: 'pending' },
+				80606: { connectToID: 80607, type: 'pending' },
 				
-				80611: 80612,
-				80612: 80613,
-				80613: 80614
+				80611: { connectToID: 80612, type: 'pending' },
+				80612: { connectToID: 80613, type: 'pending' },
+				80613: { connectToID: 80614, type: 'pending' }
 
 				},
 			
@@ -2457,8 +2457,8 @@ module.exports = {
 			}
 		},
 		2: { // Bombardment
-			'*': { 
-				cancelLogic: true,			
+			'*': {
+						
 				noRetry: true },
 			0: {
 				type: 'lockon',
@@ -3325,8 +3325,12 @@ module.exports = {
 		},
 		44: { // Balder's Vengeance (Modular Weapon System)
 			'*': {
-				//TO DO 
-				//retryforProjectiles: true,
+				connectChains:{
+				470101: {connectToID: 440130, type: 'rear'},
+				470102: {connectToID: 440130, type: 'rear'},
+				470130: {connectToID: 440130, type: 'rear'}
+				},
+			
 				noRetry: true,
 				noInterrupt: [20, 44],
 				moveDir: 1
@@ -3355,8 +3359,8 @@ module.exports = {
 					91040: 30,
 					91041: 30,
 					91042: 30,
-					91043: 30,
-					91047: 30
+					91043: 30
+				//	91047: 30
 				}
 			},
 			30: {
@@ -3367,12 +3371,9 @@ module.exports = {
 		47: { // Obliteration
 			'*': {
 				length: 5299,
-				//cancelLogic: true,
 				requiredBuff: 10152340,
 				connectChains:{
-				470101: 440130,
-				470102: 440130,
-				470130: 440130	
+				20601: {connectToID: 440130, type: 'rear'}
 				},
 				pendingStartTime: 2200,
 				rearCancelStartTime: 3800,
