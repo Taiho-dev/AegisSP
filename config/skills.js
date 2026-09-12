@@ -1274,7 +1274,7 @@ module.exports = {
 			0: { noInterrupt: [6] },
 			1: {
 				timeRate: 1.15,
-				length: 533,
+				length: 376.522,
 				pendingStartTime: 250,
 				rearCancelStartTime: 250,
 				level: {
@@ -2766,6 +2766,8 @@ module.exports = {
 				noInterrupt: [20],
 				level: {
 					9: {
+						length: 1266,
+						autoRelease: 200,
 						chargeLevels: [91010,91011],
 						releaseChain: [
 							{
@@ -3268,11 +3270,23 @@ module.exports = {
 		},
 		43: { // Remote Trigger
 			'*': {
+				abnormalConnect:{
+				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
+				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
+				430103 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
+				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
+				430150 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
+				11201  : {connectToID: 430131, type: 'rear', abnormal: 10152331}					
+				 },	
+				
+				//length: 1200,
+				//timeRate: 1.3,
 				moveDir: 1,
 				hasChains: true,
 				noRetry: true
 			},
 			1: {
+				triggerAbnormal: {10152331: 1800},
 				categoryChains: {
 					91002: 30,
 					91003: 30,
@@ -3293,6 +3307,8 @@ module.exports = {
 				}
 			},
 			3: {
+				requireAbnormal: 10152331,
+				triggerAbnormal: {10152331: 1800},
 				categoryChains: {
 					91002: 50,
 					91003: 50,
@@ -3313,15 +3329,23 @@ module.exports = {
 				}
 			},
 			30: {
+				requireAbnormal: 10152331,
+				consumeAbnormalEnd: 10152331,
 				connectSkillArrow: true,
 				noRetry: true
 			},
-			31: true,
+			31: {
+				triggerAbnormal: {10152331: 1800},
+				consumeAbnormal:10152331
+			},
 			50: {
+				requireAbnormal: 10152331,
+				triggerAbnormal: {10152331: 1800},
+				consumeAbnormalEnd: 10152331,
 				connectSkillArrow: true,
 				noRetry: true
 			},
-			51: true,
+			51: {consumeAbnormal:10152331}
 		},
 		44: { // Balder's Vengeance (Modular Weapon System)
 			'*': {
