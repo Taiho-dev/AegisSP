@@ -1292,7 +1292,7 @@ module.exports = {
 				rearCancelStartTime: 160
 			},
 			4: {timeRate: 1.15,
-				length: 11159.130,
+				length: 1159.130,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
@@ -3367,8 +3367,13 @@ module.exports = {
 		47: { // Obliteration
 			'*': {
 				length: 5299,
-				cancelLogic: true,
+				//cancelLogic: true,
 				requiredBuff: 10152340,
+				connectChains:{
+				470101: 440130,
+				470102: 440130,
+				470130: 440130	
+				},
 				pendingStartTime: 2200,
 				rearCancelStartTime: 3800,
 				moveDir: 1,
