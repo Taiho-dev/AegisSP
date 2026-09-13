@@ -386,10 +386,15 @@ module.exports = {
 		13: { // Spring Attack
 			"*": {
 				triggerAbnormal: { 201831: 2000 },
-				consumeAbnormalEnd: 201831
+				consumeAbnormalEnd: 201831,
+				 abnormalConnect:{
+				 181100: {connectToID: 131130, type: 'pending', abnormal: 201831},
+				 181101: {connectToID: 131130, type: 'pending', abnormal: 201831}
+				 }
 			},
+			
 			0: {
-				abnormalChains: {500020002: 30},
+				//abnormalChains: {500020002: 30},
 				noInterrupt: ["1-0", "1-1", 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
 					1: 30,
@@ -414,19 +419,26 @@ module.exports = {
 			0: { ignoreAttackSpeed: true }
 		},
 		17: { // Adrenaline Rush
-			0: { ignoreAttackSpeed: true }
+			0: { ignoreAttackSpeed: true },
+			40: {
+				ignoreAttackSpeed: false,	
+				length: 700
+			}
 		},
 		18: { // Shield Barrage
 			"*": {
 				triggerAbnormal: { 201831: 2000,
 				500020002: 2250
-
 				 },
-				consumeAbnormalEnd: 201831,
+					consumeAbnormalEnd: 201831,
 				noInterrupt: [18]
 			},
-			0: {length: 608},
-			1: {length: 833}
+			0: {length: 608,
+				pendingStartTime: 200
+			},
+			1: {length: 833,
+				pendingStartTime: 200
+			}
 		},
 		19: { // Pledge of Protection
 			0: { ignoreAttackSpeed: true }
@@ -1772,6 +1784,9 @@ module.exports = {
 		},
 		17: { // Teleport Jaunt
 			0: {
+				ignoreAttackSpeed: true,
+				timeRate: 2,
+				length: [116.50,216.50],
 				noInterrupt: [17],
 				cooldownEnd: 300,
 				noRetry: true
@@ -1810,8 +1825,12 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noRetry: true
 			},
-			0: { type: 'lockon' },
-			10: { type: 'lockonCast' }
+			0: { type: 'lockon',
+				 timeRate: 1
+			 },
+			10: { type: 'lockonCast',
+				timeRate: 1.5
+			 }
 		},
 		25: { // Thrall of Protection
 			'*': {
@@ -1872,7 +1891,9 @@ module.exports = {
 				cooldownEnd: 300
 			},
 			0: true,
-			10: true,
+			10: {timeRate: 3,
+				length: [266,511]
+			},
 			30: true
 		},
 		34: { // Thrall of Wrath
@@ -1903,6 +1924,8 @@ module.exports = {
 		},
 		42: { // Boomerang Pulse
 			0: {
+				timeRate: 1.1,
+				length: 550,
 				noInterrupt: [42],
 				cooldownEnd: 300
 			}
@@ -1925,7 +1948,9 @@ module.exports = {
 			0: true
 		},
 		48: { // Thrall Lord
-			0: { ignoreAttackSpeed: true }
+			0: { ignoreAttackSpeed: true,
+			 	 length: 4050,
+				 }
 		}
 	},
 	8: { // Reaper
