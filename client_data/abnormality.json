@@ -6973,7 +6973,7 @@
   "70254": {
     "bySkillCategory": [0],
     "effects": [
-      { "type": 24, "method": 2, "value": 20 },
+      { "type": 24, "method": 2, "value": 25 },
       { "type": 244, "method": 60032, "value": 0 }
     ]
   },
@@ -53515,5 +53515,67 @@
     "500100006": {
     "bySkillCategory": [0],
     "effects": [{ "type": 24, "method": 3, "value": 1.3 }]
+  },
+       "900002": 
+    {
+           "comment":"reborn multi-nostrom",
+      "bySkillCategory": [9011],
+    "effects": [
+      { "type": 208, "method": 0, "value": 0.85 },
+      { "type": 3, "method": 3, "value": 1.27 },
+      { "type": 4, "method": 3, "value": 1.2 },
+      { "type": 52, "method": 2, "value": 700 },
+      { "type": 19, "method": 0, "value": 1.42 }
+    ]
+  },
+     "900003": 
+    {
+           "comment1":"reborn multi-nostrom",
+        "bySkillCategory": [9012],
+    "effects": [
+      { "type": 208, "method": 0, "value": 0.85 },
+      { "type": 3, "method": 3, "value": 1.27 },
+      { "type": 4, "method": 3, "value": 1.2 },
+      { "type": 52, "method": 2, "value": 700 },
+      { "type": 19, "method": 0, "value": 1.42 }
+    ]
+  },
+     "900004": 
+    {
+           "comment":"reborn multi-nostrom",
+        "bySkillCategory": [9012],
+    "effects": [
+      { "type": 208, "method": 0, "value": 0.85 }
+    ]
+  },
+    "900005": 
+    {
+           "comment":"reborn multi-nostrom",
+        "bySkillCategory": [9012],
+    "effects": [
+      { "type": 208, "method": 0, "value": 0.85 }
+    ]
+  },
+     "900006": 
+    {
+           "comment":"reborn multi-nostrom",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 24, "method": 3, "value": 1.06 },
+      { "type": 162, "method": 3, "value": 1.1 },
+      { "type": 104, "method": 3, "value": 0.9 }
+    
+    ]
+  },
+      "900008": 
+    {
+           "comment1":"reborn multi-nostrom",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 317, "method": 0, "value": 1 },
+      { "type": 162, "method": 3, "value": 1.08 },
+      { "type": 284, "method": 0, "value": 1 }
+    
+    ]
   }
 }
