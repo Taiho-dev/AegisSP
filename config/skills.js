@@ -427,16 +427,22 @@ module.exports = {
 		},
 		18: { // Shield Barrage
 			"*": {
+				connectChains: {
+				181100: {connectToID: 181101, type: 'pending' } 	
+
+				},
 				triggerAbnormal: { 201831: 2000,
 				500020002: 2250
 				 },
 					consumeAbnormalEnd: 201831,
 				noInterrupt: [18]
 			},
-			0: {length: 608,
+			0: {timeRate: 1.05,
+				length: 602.857,
 				pendingStartTime: 200
 			},
-			1: {length: 833,
+			1: {timeRate: 1,
+				length: 800,
 				pendingStartTime: 200
 			}
 		},
