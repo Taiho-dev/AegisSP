@@ -283,6 +283,9 @@ module.exports = {
 		}
 	},
 	1: { // Lancer
+
+		'*': {consumeAbnormal:500020002},
+
 		1: { // Combo Attack
 			'*': { noInterrupt: [1] },
 			0: true,
@@ -304,8 +307,9 @@ module.exports = {
 		3: { // Onslaught
 			'*': { 	noInterrupt: [3, 4, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29],
 					consumeAbnormal: 22060
+					
 				 },
-			0: {
+			0: {abnormalChains: {500020002: 30},
 				chains: {
 					1: 30,
 					5: 30,
@@ -324,6 +328,7 @@ module.exports = {
 		4: { // Challenging Shout
 			'*': { noInterrupt: [4, 9, 12, 23, 24, 26] },
 			0: {
+				abnormalChains: {500020002: 30},
 				chains: {
 					1: 30,
 					3: 30,
@@ -365,6 +370,8 @@ module.exports = {
 		},
 		10: { // Debilitate
 			"*": {
+
+				abnormalChains: {500020002: 30},
 				triggerAbnormal: { 201830: 2000 },
 				consumeAbnormalEnd: 201830,
 				noInterrupt: [3, 4, 5, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29]
@@ -381,7 +388,8 @@ module.exports = {
 			0: false
 		},
 		12: { // Infuriate
-			0: true
+			0: true,
+		
 		},
 		13: { // Spring Attack
 			"*": {
@@ -452,7 +460,7 @@ module.exports = {
 		},
 		21: { // Lockdown Blow
 			1: true,
-			2: {
+			2: {abnormalChains: {500020002: 30},
 				chains: {
 					10: 30,
 					13: 30,
@@ -473,7 +481,7 @@ module.exports = {
 			2: true
 		},
 		25: { // Wallop
-			0: {
+			0: {abnormalChains: {500020002: 30},
 				noInterrupt: [1, 3, 4, 5, 9, 11, 12, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
 					8: 30,
