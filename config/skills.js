@@ -1298,7 +1298,8 @@ module.exports = {
 				},
 			
 			//	cancelLogic: false,
-				noRetry: true 
+			// TO DO retries for projectiles for arrow projectiles.
+				noRetry: false 
 			},
 			0: { noInterrupt: [6] },
 			1: {
