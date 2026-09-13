@@ -414,7 +414,7 @@ module.exports = {
 					21: 30
 				}
 			},
-			30: {length: 1949.5,
+			30: {
 				pendingStartTime: 500}
 		},
 		15: { // Charging Lunge
