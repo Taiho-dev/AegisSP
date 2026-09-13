@@ -17,7 +17,7 @@
     "config/abnormalities.js": "037460fe381086236482aeb6ab7b812155a3370c67aebae97e5665ac399fac8e",
     "config/animationdata.js": "79fd64c46d56522285841c7a95323857f5c2b82b6ef09a4b3417d18993d01b55",
     "config/chaindata.js": "be6280702ab049be29c70ff02ddb29d739941deb9e2e5e95724e8741799fbb96",
-    "config/skills.js": "e02d11a4192bae73056f382944c7b131fd995d7a3c6e1622ee40b82aa8c1ad6c",
+    "config/skills.js": "5e3621137de352648725ae5b04e04be75e097418d159e7ca57646c5f40b8a078",
     "lib/abnormalities.js": "cd4195728c6f57b0d55a4b85368512d7bdf99c8693d0c891d7233a82218df645",
     "lib/commands.js": "88ad8919eb166a7cd0cba4aae9a3c2981219f45f486f97a4ec63d4ef48feb095",
     "lib/cooldowns.js": "d0d055bd6a8a45d4dfe10e1c7e7802e39a2c8eab01d111d087768d587a7c5f2d",
