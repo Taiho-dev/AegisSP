@@ -3397,7 +3397,7 @@ module.exports = {
 				length: 5299,
 				requiredBuff: 10152340,
 				connectChains:{
-				20601: {connectToID: 440130, type: 'rear'}
+				20601: {connectToID: 470130, type: 'rear'}
 				},
 				pendingStartTime: 2200,
 				rearCancelStartTime: 3800,
