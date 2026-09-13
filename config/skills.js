@@ -415,6 +415,7 @@ module.exports = {
 				}
 			},
 			30: {
+				//length: 1550,
 				pendingStartTime: 500}
 		},
 		15: { // Charging Lunge
@@ -1802,7 +1803,7 @@ module.exports = {
 			0: {
 				ignoreAttackSpeed: true,
 				timeRate: 2,
-				length: [166.5,266.50],
+				length: [166.5,166.5],
 				noInterrupt: [17],
 				cooldownEnd: 300,
 				noRetry: true
@@ -1810,7 +1811,9 @@ module.exports = {
 		},
 		18: { // Arun's Vitae
 			0: {
-				chargeLevels: [10, 10],
+				length: [1240],
+				chargeLevels: [10,10],
+				autoRelease: 10,
 				noInterrupt: [18],
 				noRetry: true
 			},
@@ -1824,7 +1827,9 @@ module.exports = {
 		},
 		22: { // Arun's Tears
 			0: {
-				chargeLevels: [10, 10],
+				length: [1240],
+				chargeLevels: [10,10],
+				autoRelease: 10,
 				noRetry: true
 			},
 			10: { noRetry: true }
