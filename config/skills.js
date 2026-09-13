@@ -1786,7 +1786,7 @@ module.exports = {
 			0: {
 				ignoreAttackSpeed: true,
 				timeRate: 2,
-				length: [116.50,216.50],
+				length: [166.50,216],
 				noInterrupt: [17],
 				cooldownEnd: 300,
 				noRetry: true
@@ -1891,7 +1891,8 @@ module.exports = {
 				cooldownEnd: 300
 			},
 			0: true,
-			10: {timeRate: 3,
+			10: {
+				timeRate: 3,
 				length: [266,511]
 			},
 			30: true
