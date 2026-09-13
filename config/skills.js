@@ -431,20 +431,20 @@ module.exports = {
 		17: { // Adrenaline Rush
 			0: { ignoreAttackSpeed: true },
 			40: {
-				ignoreAttackSpeed: false,	
+				ignoreAttackSpeed: true,	
 				length: 700
 			}
 		},
 		18: { // Shield Barrage
 			"*": {
-				connectChains: {
-				181100: {connectToID: 181101, type: 'pending' } 	
+			//	connectChains: {
+			//	181100: {connectToID: 181101, type: 'pending' } 	
 
-				},
+			//	},
 				triggerAbnormal: { 201831: 2000,
 				500020002: 2250
 				 },
-					consumeAbnormalEnd: 201831,
+				consumeAbnormalEnd: 201831,
 				noInterrupt: [18]
 			},
 			0: {timeRate: 1.05,
