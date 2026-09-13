@@ -394,6 +394,7 @@ module.exports = {
 			},
 			
 			0: {
+				pendingStartTime: 500,
 				//abnormalChains: {500020002: 30},
 				noInterrupt: ["1-0", "1-1", 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
@@ -405,7 +406,7 @@ module.exports = {
 					21: 30
 				}
 			},
-			30: true
+			30: {pendingStartTime: 500}
 		},
 		15: { // Charging Lunge
 			0: {
