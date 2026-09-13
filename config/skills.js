@@ -414,7 +414,8 @@ module.exports = {
 					21: 30
 				}
 			},
-			30: {pendingStartTime: 500}
+			30: {length: 1949.5,
+				pendingStartTime: 500}
 		},
 		15: { // Charging Lunge
 			0: {
@@ -1801,7 +1802,7 @@ module.exports = {
 			0: {
 				ignoreAttackSpeed: true,
 				timeRate: 2,
-				length: [166.50,216],
+				length: [116.5,216.5],
 				noInterrupt: [17],
 				cooldownEnd: 300,
 				noRetry: true
@@ -1844,7 +1845,8 @@ module.exports = {
 				 timeRate: 1
 			 },
 			10: { type: 'lockonCast',
-				timeRate: 1.5
+				timeRate: 1.5,
+			
 			 }
 		},
 		25: { // Thrall of Protection
@@ -1908,7 +1910,7 @@ module.exports = {
 			0: true,
 			10: {
 				timeRate: 3,
-				length: [266,511]
+				length: [266.66,511]
 			},
 			30: true
 		},
