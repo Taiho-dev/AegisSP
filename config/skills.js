@@ -1359,7 +1359,7 @@ module.exports = {
 				rearCancelStartTime: 160
 			},
 			14: {timeRate: 1.15,
-				length: 1159.130,
+				length: 1033,
 				pendingStartTime: 160,
 				rearCancelStartTime: 500
 				}
@@ -2801,13 +2801,54 @@ module.exports = {
 				}
 			},
 			3: {
-				//emulates it closely. it will refresh either way 
+				
+				// TriggerPreCalculateSpeedAbnormals:
+				// {
+				// 	500100006  : 4000,
+				// 	requireGlyphs: 30049 
+				// },
+				noInterrupt: ['7-3'] },	
+			31: {
+				ignoreAttackSpeed: true,
+				
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					500100006  : 4000,
 					requireGlyphs: 30049 
 				},
-				noInterrupt: ['7-3'] }
+				noInterrupt: ['7-3'] },
+
+						1: {
+				ignoreAttackSpeed: true,
+				noInterrupt: [7, 20],
+				triggerAbnormal: { 10152010: 3100 },
+				noRetry: true,
+				 TriggerPreCalculateSpeedAbnormals:
+				 {
+				 	30050 : 3100,
+				 	requireGlyphs: 30049 
+				 }
+			},
+			32: {
+				ignoreAttackSpeed: true,
+				noInterrupt: [7],
+				triggerAbnormal: { 10152010: 3100 },
+				noRetry: true,
+				TriggerPreCalculateSpeedAbnormals:
+				{
+					30050 : 3100,
+					requireGlyphs: 30049 
+				}
+			},
+			33: {
+				ignoreAttackSpeed: true,
+				
+				// TriggerPreCalculateSpeedAbnormals:
+				// {
+				// 	500100006  : 4000,
+				// 	requireGlyphs: 30049 
+				// },
+				noInterrupt: ['7-3'] },	
 		},
 		9: { // Mana Missiles
 			'*': { moveDir: 1 },
