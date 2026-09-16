@@ -15,4 +15,5 @@ First priority is to ensure all classes and skills are working before refactorin
 - Gunner
 - Lancer
 - Priest
+- Mystic
 - Archer
