@@ -5,6 +5,7 @@ module.exports = {
 
 	/* Lancer */
 	201831: true, // peepee hard
+	500020002: true, // shield barrage abnormal
 
 	/* Slayer */
 	23220: true, // Distant Blade
