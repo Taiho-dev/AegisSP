@@ -21,4 +21,4 @@ First priority is to ensure all classes and skills are working before refactorin
 
 ## Warning!
 
-Modifying the skills values without knowing what you are doing may result it in a ban, and so you do it at your own responsibility.
+Modifying the skills values without knowing what you are doing may result it in a ban, and so you do it at your own risk!
