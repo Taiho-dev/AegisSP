@@ -1299,42 +1299,43 @@ module.exports = {
 				 80613: { connectToID: 80614, type: 'pending' }
 
 				 },
-				noRetry: true 
+				//noRetry: true
+				retryOnce: true 
 			},
 			0: { noInterrupt: [6] },
 			1: {
 				timeRate: 1.15,
 				length: 341,
-				pendingStartTime: 270,
-				rearCancelStartTime: 270,
+				pendingStartTime: 250,
+				rearCancelStartTime: 250,
 				level: {
 					5: { noInterrupt: [6] }
 				}
 			},
 			2: {timeRate: 1.15,
 				length: 500,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			3: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			4: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			5: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			6: {timeRate: 1.15,
 				length: 680,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			7: {timeRate: 1.15,
 				length: 1033,
@@ -1350,17 +1351,17 @@ module.exports = {
 			12: {
 				timeRate: 1.15,
 				length: 500,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			13: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 170,
-				rearCancelStartTime: 170
+				pendingStartTime: 160,
+				rearCancelStartTime: 160
 			},
 			14: {timeRate: 1.15,
 				length: 680,
-				pendingStartTime: 170,
+				pendingStartTime: 160,
 				rearCancelStartTime: 500
 				}
 		},
