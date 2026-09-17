@@ -66192,6 +66192,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -66232,6 +66242,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+    "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -101512,6 +101532,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -101552,6 +101582,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -136813,6 +136853,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -136853,6 +136903,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -166528,6 +166588,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -166568,6 +166638,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -201567,6 +201647,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -201607,6 +201697,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -231277,6 +231377,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -231317,6 +231427,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -260988,6 +261108,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -261028,6 +261158,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -290699,6 +290839,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -290739,6 +290889,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -335117,6 +335277,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -335157,6 +335327,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -370499,6 +370679,16 @@
       "length": 811,
       "distance": 156.25
     },
+     "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },   
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -370539,6 +370729,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+        "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
@@ -428615,6 +428815,16 @@
       "length": 811,
       "distance": 156.25
     },
+    "400113": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
+      "distance": 156.25
+    },    
     "400119": {
       "category": [1040, 102, 550, 9011, 9001, 10090, 9710, 560, 9999],
       "dcType": "normal",
@@ -428655,6 +428865,16 @@
       "pendingStartTime": 568,
       "rearCancelStartTime": 431,
       "length": 811,
+      "distance": 156.25
+    },
+      "400123": {
+      "category": [1040, 102, 550, 552, 9011, 9001, 10002, 9710, 560, 9999],
+      "dcType": "normal",
+      "timeRate": 1.32,
+      "skillPendingType": "immediateCancel",
+      "pendingStartTime": 568,
+      "rearCancelStartTime": 431,
+      "length": 810.606,
       "distance": 156.25
     },
     "400129": {
