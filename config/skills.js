@@ -761,7 +761,7 @@ module.exports = {
 		},
 		2: { // Axe Block
 			0: { ignoreAttackSpeed: true },
-			30: { consumeAbnormal: 401801 },
+			30: { consumeAbnormal: 401701 },
 			31: { ignoreAttackSpeed: true }
 		},
 		3: { // Thunder Strike
@@ -814,7 +814,7 @@ module.exports = {
 		10: { // Cyclone
 			0: {
 				overcharge: 365,
-				noChargeAbnormalityId: 401801,
+				noChargeAbnormalityId: 401701,
 				noRetry: true
 			},
 			10: { noRetry: true },
@@ -950,7 +950,7 @@ module.exports = {
 		27: { // Unbreakable
 			"*": { noInterrupt: [1, 2, '3-10', '3-11', '3-12', '3-13', 4, 6, '8-30', '10-10', '10-11', '10-12', '10-13', 11, 13, '15-10', '15-11', '15-12', '15-13', '15-14', 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] },
 			0: {
-				interruptibleWithAbnormal: { 401805: 33 },
+				interruptibleWithAbnormal: { 401705: 33 },
 				chains: {
 					34: 30,
 					35: 30,
@@ -996,7 +996,7 @@ module.exports = {
 		},
 		34: { // Unleash: Dexter
 			'*': {
-				requiredBuff: 401805,
+				requiredBuff: 401705,
 				noRetry: true
 			},
 			0: {
@@ -1012,7 +1012,7 @@ module.exports = {
 		},
 		35: { // Unleash: Sinister
 			'*': {
-				requiredBuff: 401805,
+				requiredBuff: 401705,
 				noRetry: true
 			},
 			0: {
@@ -1028,7 +1028,7 @@ module.exports = {
 		},
 		36: { // Unleash: Rampage
 			'*': {
-				requiredBuff: 401805,
+				requiredBuff: 401705,
 				noRetry: true
 			},
 			0: {
@@ -1045,7 +1045,7 @@ module.exports = {
 		37: { // Unleash: Beast Fury
 			'*': {
 				noInterrupt: [16, 37],
-				requiredBuff: 401805
+				requiredBuff: 401705
 			},
 			0: {
 				chains: {
@@ -1285,7 +1285,7 @@ module.exports = {
 		},
 		8: { // Rapid Fire
 			'*': {
-				 
+				
 				 connectChains:{
 				 80601: { connectToID: 80602, type: 'pending' },   
 				 80602: { connectToID: 80603, type: 'pending' },
@@ -1305,8 +1305,8 @@ module.exports = {
 			1: {
 				timeRate: 1.15,
 				length: 341,
-				pendingStartTime: 260,
-				rearCancelStartTime: 260,
+				pendingStartTime: 270,
+				rearCancelStartTime: 270,
 				level: {
 					5: { noInterrupt: [6] }
 				}
