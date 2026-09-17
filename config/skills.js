@@ -245,14 +245,16 @@ module.exports = {
 				noRetry: true
 			},
 			11: { triggerAbnormal: { 104101: 800 } },
-			12: true,
+			12: {categoryChains: {560: 13}},
+			13: true,
 			20: {
 				triggerAbnormal: { 104101: 800 },
 				categoryChains: { 560: 21 },
 				noRetry: true
 			},
 			21: { triggerAbnormal: { 104101: 800 } },
-			22: true
+			22: {categoryChains: {560: 13}},
+			23: true
 		},
 		41: { // Aerial Scythe
 			'*': {
