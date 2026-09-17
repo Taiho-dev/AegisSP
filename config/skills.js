@@ -1307,7 +1307,7 @@ module.exports = {
 			0: { noInterrupt: [6] },
 			1: {
 				timeRate: 1.15,
-				length: 376.522,
+				length: 341,
 				pendingStartTime: 250,
 				rearCancelStartTime: 250,
 				level: {
@@ -1315,54 +1315,54 @@ module.exports = {
 				}
 			},
 			2: {timeRate: 1.15,
-				length: 376.522,
+				length: 500,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			3: {timeRate: 1.15,
-				length: 1159.130,
+				length: 600,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			4: {timeRate: 1.15,
-				length: 1159.130,
+				length: 600,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			5: {timeRate: 1.15,
-				length: 1159.130,
+				length: 600,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			6: {timeRate: 1.15,
-				length: 1159.130,
+				length: 680,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			7: {timeRate: 1.15,
-				length: 1159.130,
+				length: 1033,
 				pendingStartTime: 800,
 				rearCancelStartTime: 350
 			},
 			11: {
 				timeRate: 1.15,
-				length: 376.522,
+				length: 341,
 				pendingStartTime: 250,
 				rearCancelStartTime: 250
 			},
 			12: {
 				timeRate: 1.15,
-				length: 1159.130,
+				length: 500,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			13: {timeRate: 1.15,
-				length: 1159.130,
+				length: 600,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			14: {timeRate: 1.15,
-				length: 1033,
+				length: 680,
 				pendingStartTime: 160,
 				rearCancelStartTime: 500
 				}
