@@ -18,6 +18,7 @@ First priority is to ensure all classes and skills are working before refactorin
 - Priest
 - Mystic
 - Archer
+- Warrior
 
 ## Warning!
 
