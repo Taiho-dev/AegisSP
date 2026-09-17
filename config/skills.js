@@ -3840,6 +3840,7 @@ module.exports = {
 		'*': { consumeAbnormal: [10154000, 10154001, 10154002, 10154003, 10154004, 10154005, 10154006] },
 		1: { // Combo Attack
 			'*': {
+				lockCancel: true,
 				ignoreAttackSpeed: true,
 				triggerAbnormal: { 10154000: 1650 },
 				hasChains: true,
