@@ -1285,19 +1285,20 @@ module.exports = {
 		},
 		8: { // Rapid Fire
 			'*': {
-				connectChains:{
-				80601: { connectToID: 80602, type: 'pending' },   
-				80602: { connectToID: 80603, type: 'pending' },
-				80603: { connectToID: 80604, type: 'pending' },
-				80604: { connectToID: 80605, type: 'pending' },
-				80605: { connectToID: 80606, type: 'pending' },
-				80606: { connectToID: 80607, type: 'pending' },
+				lockCancel: true,
+				// connectChains:{
+				// 80601: { connectToID: 80602, type: 'pending' },   
+				// 80602: { connectToID: 80603, type: 'pending' },
+				// 80603: { connectToID: 80604, type: 'pending' },
+				// 80604: { connectToID: 80605, type: 'pending' },
+				// 80605: { connectToID: 80606, type: 'pending' },
+				// 80606: { connectToID: 80607, type: 'pending' },
 				
-				80611: { connectToID: 80612, type: 'pending' },
-				80612: { connectToID: 80613, type: 'pending' },
-				80613: { connectToID: 80614, type: 'pending' }
+				// 80611: { connectToID: 80612, type: 'pending' },
+				// 80612: { connectToID: 80613, type: 'pending' },
+				// 80613: { connectToID: 80614, type: 'pending' }
 
-				},
+				// },
 			
 			//	cancelLogic: false,
 			// TO DO retries for projectiles for arrow projectiles.
