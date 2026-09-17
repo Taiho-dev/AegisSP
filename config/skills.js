@@ -761,7 +761,7 @@ module.exports = {
 		},
 		2: { // Axe Block
 			0: { ignoreAttackSpeed: true },
-			30: { consumeAbnormal: 401701 },
+			30: { consumeAbnormal: 401801 },
 			31: { ignoreAttackSpeed: true }
 		},
 		3: { // Thunder Strike
@@ -814,7 +814,7 @@ module.exports = {
 		10: { // Cyclone
 			0: {
 				overcharge: 365,
-				noChargeAbnormalityId: 401701,
+				noChargeAbnormalityId: 401801,
 				noRetry: true
 			},
 			10: { noRetry: true },
@@ -950,7 +950,7 @@ module.exports = {
 		27: { // Unbreakable
 			"*": { noInterrupt: [1, 2, '3-10', '3-11', '3-12', '3-13', 4, 6, '8-30', '10-10', '10-11', '10-12', '10-13', 11, 13, '15-10', '15-11', '15-12', '15-13', '15-14', 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] },
 			0: {
-				interruptibleWithAbnormal: { 401705: 33 },
+				interruptibleWithAbnormal: { 401805: 33 },
 				chains: {
 					34: 30,
 					35: 30,
@@ -996,7 +996,7 @@ module.exports = {
 		},
 		34: { // Unleash: Dexter
 			'*': {
-				requiredBuff: 401705,
+				requiredBuff: 401805,
 				noRetry: true
 			},
 			0: {
@@ -1012,7 +1012,7 @@ module.exports = {
 		},
 		35: { // Unleash: Sinister
 			'*': {
-				requiredBuff: 401705,
+				requiredBuff: 401805,
 				noRetry: true
 			},
 			0: {
@@ -1028,7 +1028,7 @@ module.exports = {
 		},
 		36: { // Unleash: Rampage
 			'*': {
-				requiredBuff: 401705,
+				requiredBuff: 401805,
 				noRetry: true
 			},
 			0: {
@@ -1045,7 +1045,7 @@ module.exports = {
 		37: { // Unleash: Beast Fury
 			'*': {
 				noInterrupt: [16, 37],
-				requiredBuff: 401705
+				requiredBuff: 401805
 			},
 			0: {
 				chains: {
@@ -1285,59 +1285,56 @@ module.exports = {
 		},
 		8: { // Rapid Fire
 			'*': {
-				lockCancel: true,
-				// connectChains:{
-				// 80601: { connectToID: 80602, type: 'pending' },   
-				// 80602: { connectToID: 80603, type: 'pending' },
-				// 80603: { connectToID: 80604, type: 'pending' },
-				// 80604: { connectToID: 80605, type: 'pending' },
-				// 80605: { connectToID: 80606, type: 'pending' },
-				// 80606: { connectToID: 80607, type: 'pending' },
+				 
+				 connectChains:{
+				 80601: { connectToID: 80602, type: 'pending' },   
+				 80602: { connectToID: 80603, type: 'pending' },
+				 80603: { connectToID: 80604, type: 'pending' },
+				 80604: { connectToID: 80605, type: 'pending' },
+				 80605: { connectToID: 80606, type: 'pending' },
+				 80606: { connectToID: 80607, type: 'pending' },
 				
-				// 80611: { connectToID: 80612, type: 'pending' },
-				// 80612: { connectToID: 80613, type: 'pending' },
-				// 80613: { connectToID: 80614, type: 'pending' }
+				 80611: { connectToID: 80612, type: 'pending' },
+				 80612: { connectToID: 80613, type: 'pending' },
+				 80613: { connectToID: 80614, type: 'pending' }
 
-				// },
-			
-			//	cancelLogic: false,
-			// TO DO retries for projectiles for arrow projectiles.
-				noRetry: false 
+				 },
+				noRetry: true 
 			},
 			0: { noInterrupt: [6] },
 			1: {
 				timeRate: 1.15,
 				length: 341,
-				pendingStartTime: 250,
-				rearCancelStartTime: 250,
+				pendingStartTime: 260,
+				rearCancelStartTime: 260,
 				level: {
 					5: { noInterrupt: [6] }
 				}
 			},
 			2: {timeRate: 1.15,
 				length: 500,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			3: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			4: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			5: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			6: {timeRate: 1.15,
 				length: 680,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			7: {timeRate: 1.15,
 				length: 1033,
@@ -1353,17 +1350,17 @@ module.exports = {
 			12: {
 				timeRate: 1.15,
 				length: 500,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			13: {timeRate: 1.15,
 				length: 600,
-				pendingStartTime: 160,
-				rearCancelStartTime: 160
+				pendingStartTime: 170,
+				rearCancelStartTime: 170
 			},
 			14: {timeRate: 1.15,
 				length: 680,
-				pendingStartTime: 160,
+				pendingStartTime: 170,
 				rearCancelStartTime: 500
 				}
 		},
