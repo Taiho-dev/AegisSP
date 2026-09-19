@@ -1736,7 +1736,7 @@ module.exports = {
 				level: {
 					9:  {
 						//ignoreAttackSpeed: true,
-						length: 1433,
+						length: 1500,
 						lockAnimSpeed: true,
 						cooldownEnd: 100
 					},
@@ -1820,6 +1820,7 @@ module.exports = {
 		},
 		18: { // Arun's Vitae
 			0: {
+				consumeAbnormalEnd: 27070,
 				length: [1240],
 				chargeLevels: [10,10],
 				autoRelease: 10,
@@ -1827,6 +1828,13 @@ module.exports = {
 				noRetry: true
 			},
 			10: {
+				triggerAbnormalGlyphs: {
+				requiredGlyphs: 27059,
+				abnormals: {
+					27100: 20000
+					}	
+				},
+
 				noRetry: true,
 				noInterrupt: ["18-10"]
 			}
@@ -1836,12 +1844,21 @@ module.exports = {
 		},
 		22: { // Arun's Tears
 			0: {
+				consumeAbnormalEnd: 27100,
 				length: [1240],
 				chargeLevels: [10,10],
 				autoRelease: 10,
+
 				noRetry: true
 			},
-			10: { noRetry: true }
+			10: { 
+				triggerAbnormalGlyphs: {
+				requiredGlyphs: 27045,
+				abnormals: {
+					27070: 10000
+					}	
+				},
+				noRetry: true }
 		},
 		23: { // Metamorphic Smite
 			0: {
