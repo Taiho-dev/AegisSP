@@ -1734,10 +1734,14 @@ module.exports = {
 			10: {
 				type: 'lockonCast',
 				level: {
-					9:  {ignoreAttackSpeed: true,
+					9:  {
+						//ignoreAttackSpeed: true,
+						length: 1433,
+						lockAnimSpeed: true,
 						cooldownEnd: 100
 					},
 					29: { // Velocity
+						length: 1849.50,
 						ignoreAttackSpeed: false,
 						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
 					},
