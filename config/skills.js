@@ -1305,7 +1305,7 @@ module.exports = {
 			0: { noInterrupt: [6] },
 			1: {
 				timeRate: 1.15,
-				length: 341,
+				length: 363.478,
 				pendingStartTime: 250,
 				rearCancelStartTime: 250,
 				level: {
@@ -1333,18 +1333,18 @@ module.exports = {
 				rearCancelStartTime: 160
 			},
 			6: {timeRate: 1.15,
-				length: 680,
+				length: 700,
 				pendingStartTime: 160,
 				rearCancelStartTime: 160
 			},
 			7: {timeRate: 1.15,
-				length: 1033,
+				length: 1059.13,
 				pendingStartTime: 800,
 				rearCancelStartTime: 350
 			},
 			11: {
 				timeRate: 1.15,
-				length: 341,
+				length: 363.478,
 				pendingStartTime: 250,
 				rearCancelStartTime: 250
 			},
@@ -1360,7 +1360,7 @@ module.exports = {
 				rearCancelStartTime: 160
 			},
 			14: {timeRate: 1.15,
-				length: 680,
+				length: 700,
 				pendingStartTime: 160,
 				rearCancelStartTime: 500
 				}
@@ -2783,7 +2783,7 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2794,7 +2794,7 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2823,7 +2823,7 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true,
+				retryOnce: true,
 				 TriggerPreCalculateSpeedAbnormals:
 				 {
 				 	30050 : 3100,
@@ -2834,7 +2834,7 @@ module.exports = {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100 },
-				noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2842,7 +2842,7 @@ module.exports = {
 				}
 			},
 			33: {
-				ignoreAttackSpeed: true,
+				ignoreAttackSpeed: false,
 				
 				// TriggerPreCalculateSpeedAbnormals:
 				// {
@@ -2912,15 +2912,15 @@ module.exports = {
 			},
 			10: {
 				projectiles: [21, 22],
-				noRetry: true
+				retryOnce: true
 			},
 			11: {
 				projectiles: [21, 22, 23, 24, 25],
-				noRetry: true
+				retryOnce: true
 			},
 			12: {
 				projectiles: [31, 32, 33, 34, 35],
-				noRetry: true
+				retryOnce: true
 			},
 			21: {
 				type: 'userProjectile',
