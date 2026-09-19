@@ -1734,8 +1734,11 @@ module.exports = {
 			10: {
 				type: 'lockonCast',
 				level: {
+					9:  {ignoreAttackSpeed: true,
+						cooldownEnd: 100
+					},
 					29: { // Velocity
-						ignoreAttackSpeed: true,
+						ignoreAttackSpeed: false,
 						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
 					},
 					30: { // Downfall
