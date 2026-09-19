@@ -6,19 +6,11 @@ resulting in smoother emulation and greatly reduced desynchronization especially
 This mod will only work for Arborea Reborn. Other servers use different client data so it will most likely not work properly.
 It may be faster or slower due to emulation being closer to what the client does.
 
-First priority is to ensure all classes and skills are working before refactoring the codebase.
+First priority is to ensure all classes and skills are working before optimizing and refactoring the codebase.
 
 ## Notice!!
 ### Status: Beta/Experimental version.
-
-
-####  Currently supported classes
-- Gunner
-- Lancer
-- Priest
-- Mystic
-- Archer
-- Warrior
+Many skills might not work properly as many of them haven't been checked yet.
 
 ## Warning!
 
