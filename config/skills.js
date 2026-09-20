@@ -1828,13 +1828,7 @@ module.exports = {
 				noRetry: true
 			},
 			10: {
-				triggerAbnormalGlyphs: {
-				requiredGlyphs: 27059,
-				abnormals: {
-					27100: 20000
-					}	
-				},
-
+				length: 850,
 				noRetry: true,
 				noInterrupt: ["18-10"]
 			}
@@ -1851,13 +1845,8 @@ module.exports = {
 
 				noRetry: true
 			},
-			10: { 
-				triggerAbnormalGlyphs: {
-				requiredGlyphs: 27045,
-				abnormals: {
-					27070: 10000
-					}	
-				},
+			10: {
+				length: 850, 
 				noRetry: true }
 		},
 		23: { // Metamorphic Smite
