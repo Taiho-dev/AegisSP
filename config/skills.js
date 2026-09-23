@@ -258,11 +258,13 @@ module.exports = {
 		},
 		41: { // Aerial Scythe
 			'*': {
+				abnormalChains: {105100:31},
 				noInterrupt: ['41-31', 42],
 				hasChains: true,
 				noRetry: true
 			},
 			0: {
+				
 				triggerAbnormal: { 105100: 1800 },
 				categoryChains: { 560: 30 }
 			},
@@ -396,16 +398,16 @@ module.exports = {
 		13: { // Spring Attack
 			"*": {
 				triggerAbnormal: { 201831: 2000 },
-				consumeAbnormalEnd: 201831,
-				 abnormalConnect:{
-				 181100: {connectToID: 131130, type: 'pending', abnormal: 201831},
-				 181101: {connectToID: 131130, type: 'pending', abnormal: 201831}
-				 }
+				consumeAbnormalEnd: 201831
+				//  abnormalConnect:{
+				//  181100: {connectToID: 131130, type: 'pending', abnormal: 201831},
+				//  181101: {connectToID: 131130, type: 'pending', abnormal: 201831}
+				//  }
 			},
 			
 			0: {
 				pendingStartTime: 500,
-				//abnormalChains: {500020002: 30},
+				abnormalChains: {500020002: 30},
 				noInterrupt: ["1-0", "1-1", 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
 					1: 30,
@@ -463,8 +465,11 @@ module.exports = {
 			0: { ignoreAttackSpeed: true }
 		},
 		21: { // Lockdown Blow
+			"*":{
+				abnormalChains: {500020002: 30}
+			},
 			1: true,
-			2: {abnormalChains: {500020002: 30},
+			2: {
 				chains: {
 					10: 30,
 					13: 30,
