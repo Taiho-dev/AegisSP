@@ -5207,7 +5207,10 @@
   },
   "21010": {
     "bySkillCategory": [0],
-    "effects": [{ "type": 24, "method": 3, "value": 1.15 }]
+    "effects": [{ "type": 24, "method": 3, "value": 1.15 },
+    { "type": 264, "method": 3, "value": 21012 },
+    { "type": 264, "method": 3, "value": 21072 }
+  ]
   },
   "21020": {
     "bySkillCategory": [1004],
