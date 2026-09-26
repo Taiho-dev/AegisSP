@@ -3379,14 +3379,13 @@ module.exports = {
 		},
 		43: { // Remote Trigger
 			'*': {
-				abnormalConnect:{
-				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
-				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
-				430103 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
-				430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
-				430150 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
-				11201  : {connectToID: 430131, type: 'rear', abnormal: 10152331}					
-				 },	
+				 abnormalConnect:{
+				// 430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
+				// 430103 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
+				// 430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
+				// 430150 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
+				 11201  : {connectToID: 430131, type: 'rear', abnormal: 10152331}					
+				  },	
 				
 				//length: 1200,
 				//timeRate: 1.3,
@@ -3416,6 +3415,7 @@ module.exports = {
 				}
 			},
 			3: {
+				abnormalChains: {10152331: 51},
 				requireAbnormal: 10152331,
 				triggerAbnormal: {10152331: 1800},
 				categoryChains: {
@@ -3438,6 +3438,7 @@ module.exports = {
 				}
 			},
 			30: {
+				abnormalChains: {10152340: 50},
 				requireAbnormal: 10152331,
 				consumeAbnormalEnd: 10152331,
 				connectSkillArrow: true,
