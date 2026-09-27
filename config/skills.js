@@ -517,6 +517,12 @@ module.exports = {
 		},
 		28: { // Super Leap
 			0: {
+				//stage 1: duration: 1055,
+				//xyRate: 1,'
+				//zRate: 1,
+				//distance: [collision],
+				//
+
 				noInterrupt: [1, 3, 4, 5, 8, 9, 10, 12, 13, 18, 21, 23, 24, 26, 28, 29],
 				forceClip: true,
 				chains: {
@@ -1826,9 +1832,9 @@ module.exports = {
 		18: { // Arun's Vitae
 			0: {
 				consumeAbnormalEnd: 27070,
-				length: [1240],
+			//	length: [1240],
 				chargeLevels: [10,10],
-				autoRelease: 10,
+				//autoRelease: 10,
 				noInterrupt: [18],
 				noRetry: true
 			},
@@ -1844,9 +1850,9 @@ module.exports = {
 		22: { // Arun's Tears
 			0: {
 				consumeAbnormalEnd: 27100,
-				length: [1240],
+			//	length: [1240],
 				chargeLevels: [10,10],
-				autoRelease: 10,
+				//autoRelease: 10,
 
 				noRetry: true
 			},
