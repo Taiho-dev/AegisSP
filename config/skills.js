@@ -1252,6 +1252,7 @@ module.exports = {
 				consumeAbnormalEnd: 26180,
 				moveDir: 1 },
 			0:  {
+				triggerAbnormal: {600200: 7000},
 				length: [600,600,600],
 				chargeLevels: [31110,31111,31112,31113],
 				autoRelease: 2500
@@ -1263,7 +1264,8 @@ module.exports = {
 		},
 		4: { // Penetrating Arrow
 			'*': { moveDir: 1 },
-			0: {chargeLevels: [41210,41211,41212,41213],
+			0: {triggerAbnormal: {600200: 7000},
+				chargeLevels: [41210,41211,41212,41213],
 				autoRelease: 2500
 
 			},
@@ -1414,6 +1416,7 @@ module.exports = {
 		},
 		22: { // Sequential Fire
 			0: {
+				consumeAbnormal: 600200,
 				triggerAbnormalGlyphs:{
 					requiredGlyphs: 26051,
 					abnormals: {
@@ -1430,7 +1433,8 @@ module.exports = {
 			0: true
 		},
 		29: { // Thunderbolt
-			0: { moveDir: 1 }
+			0: {triggerAbnormal: {600200: 7000}, 
+				moveDir: 1 }
 		},
 		31: { // Tenacity
 			0: { ignoreAttackSpeed: true }
