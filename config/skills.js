@@ -1249,6 +1249,7 @@ module.exports = {
 		},
 		3: { // Radiant Arrow
 			'*': {
+				consumeAbnormalEnd: 26180,
 				moveDir: 1 },
 			0:  {
 				length: [600,600,600],
@@ -1413,6 +1414,13 @@ module.exports = {
 		},
 		22: { // Sequential Fire
 			0: {
+				triggerAbnormalGlyphs:{
+					requiredGlyphs: 26051,
+					abnormals: {
+						26190: 6000
+					}
+
+				},
 				noInterrupt: [22],
 				requiredBuff: 600200,
 				noRetry: true
@@ -1439,6 +1447,14 @@ module.exports = {
 		},
 		34: { // Wind Walk
 			'*': {
+				triggerAbnormalGlyphs: {
+				requiredGlyphs: 26050,
+				abnormals: {
+					26180: 6000
+						}	
+				},
+				consumeAbnormalEnd: 602102,
+				triggerAbnormal: {602102: 800},
 				stamina: 150,
 				instantStamina: true,
 				noRetry: true
