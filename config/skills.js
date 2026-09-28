@@ -1426,7 +1426,7 @@ module.exports = {
 				},
 				noInterrupt: [22],
 				requiredBuff: 600200,
-				noRetry: true
+				retryOnce: true
 			}
 		},
 		25: { // Incendiary Trap Arrow
