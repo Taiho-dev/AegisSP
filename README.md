@@ -13,7 +13,7 @@ First priority is to ensure all classes and skills are working before optimizing
 Many skills might not work properly as many of them haven't been checked yet.
 
 ## Additional Info
-Increase tick_rate in core.js and disable autoupdate when your rapid fire desyncs due to high ping or server lag. Suggested values are 40-50.
+Increase tick_rate in core.js and disable autoupdate when your rapid fire desyncs due to high ping or server lag. Suggested values are 40-50 for 200ms ping.
 
 ## Warning!
 
