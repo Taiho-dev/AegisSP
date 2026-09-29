@@ -98,6 +98,17 @@ module.exports = {
 		},
 		20: { // Deadly Gamble
 			0: {
+				TriggerPreCalculateSpeedAbnormals:
+				{
+				103104: 15000,
+				21010: 	15000	
+			},
+			triggerAbnormal:{
+				21012: 75,
+				21072: 75
+				
+			},
+				
 				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			}
