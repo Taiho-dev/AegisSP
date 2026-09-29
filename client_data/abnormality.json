@@ -8364,11 +8364,11 @@
   },
   "101300": {
     "bySkillCategory": [0],
-    "effects": [{ "type": 24, "method": 3, "value": 1.009 }]
+    "effects": [{ "type": 24, "method": 3, "value": 1.01 }]
   },
   "101301": {
     "bySkillCategory": [0],
-    "effects": [{ "type": 24, "method": 3, "value": 1.009 }]
+    "effects": [{ "type": 24, "method": 3, "value": 1.13 }]
   },
   "101400": {
     "bySkillCategory": [0],
@@ -53580,5 +53580,33 @@
       { "type": 284, "method": 0, "value": 1 }
     
     ]
+  },
+  "21011": 
+    {
+     "comment1":"new warrior DG abnormal",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 248, "method": 1, "value": 21010 }
+    
+    ]
+  },
+  "21012": 
+    {
+   "comment1":"new warrior DG abnormal",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 4, "method": 3, "value": 1 }
+    
+    ]
+  },
+  "21072":
+  {
+   "comment1":"new warrior DG abnormal",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 4, "method": 3, "value": 1 }
+    
+    ]
   }
 }
+
