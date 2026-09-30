@@ -1090,8 +1090,14 @@ module.exports = {
 				overcharge: 450,
 				chargeLevels: [400130,400131,400132],
 
+				// infuriate
 					level: {
-					10: true
+					10: {
+						length: 1766,
+						requiredBuff: 401400,
+						chargeLevels: null,
+						overcharge: 0
+					}
 					}
 			},
 			//collosal
