@@ -1079,6 +1079,31 @@ module.exports = {
 				}
 			},
 			30: true
+		},
+		40: { // collosal
+			0: {
+				triggerAbnormal: {499990008: 10000},
+				noRetry: true,
+				//grant: true,
+				length: [900, 900],
+				
+				overcharge: 450,
+				chargeLevels: [400130,400131,400132],
+
+					level: {
+					10: true
+					}
+			},
+			//collosal
+			30: {
+				noRetry: true},
+			31: {
+				noRetry: true},
+			32: {
+				noRetry: true}
+
+
+
 		}
 	},
 	4: { // Sorcerer
@@ -2837,8 +2862,11 @@ module.exports = {
 			1: {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
-				triggerAbnormal: { 10152010: 3100 },
-				retryOnce: true,
+				triggerAbnormal: { 
+					10152010: 3100,
+					10152040: 4100
+				 },
+			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2848,8 +2876,10 @@ module.exports = {
 			2: {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
-				triggerAbnormal: { 10152010: 3100 },
-				retryOnce: true,
+				triggerAbnormal: { 10152010: 3100,
+					10152040: 4100
+				 },
+			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2861,8 +2891,10 @@ module.exports = {
 				// TriggerPreCalculateSpeedAbnormals:
 				// {
 				// 	500100006  : 4000,
-				// 	requireGlyphs: 30049 
+				// 	requireGlyphs: 30049,
+				//	timeout: 50 
 				// },
+				consumeAbnormal: [10152040,10152010],
 				noInterrupt: ['7-3'] },	
 			31: {
 				ignoreAttackSpeed: true,
@@ -2877,8 +2909,11 @@ module.exports = {
 						1: {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
-				triggerAbnormal: { 10152010: 3100 },
-				retryOnce: true,
+				triggerAbnormal: { 
+					10152010: 3100,
+					10152040: 4100
+				 },
+			//	retryOnce: true,
 				 TriggerPreCalculateSpeedAbnormals:
 				 {
 				 	30050 : 3100,
@@ -2888,8 +2923,10 @@ module.exports = {
 			32: {
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
-				triggerAbnormal: { 10152010: 3100 },
-				retryOnce: true,
+				triggerAbnormal: { 
+				10152010: 3100,
+				10152040: 4100 },
+			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2898,7 +2935,7 @@ module.exports = {
 			},
 			33: {
 				ignoreAttackSpeed: false,
-				
+				consumeAbnormal: [10152010,10152040],
 				// TriggerPreCalculateSpeedAbnormals:
 				// {
 				// 	500100006  : 4000,
@@ -2913,7 +2950,7 @@ module.exports = {
 				level: {
 					9: {
 						length: 1266,
-						autoRelease: 200,
+					//	autoRelease: 200,
 						chargeLevels: [91010,91011],
 						releaseChain: [
 							{
