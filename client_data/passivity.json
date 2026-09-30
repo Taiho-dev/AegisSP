@@ -18726,5 +18726,54 @@
     "type": 4,
     "method": 3,
     "value": 1
-  }
+  },
+  "170404101": {
+    "conditionCategory": 4004,
+    "type": 77,
+    "method": 3,
+    "value": 1.2
+  },
+    "170404200": {
+    "conditionCategory": 4004,
+    "type": 209,
+    "method": 4,
+    "value": 401800
+  },
+    "170404201": {
+    "conditionCategory": 4004,
+    "type": 158,
+    "method": 3,
+    "value": 1.03
+  },
+    "170404300": {
+    "conditionCategory": 4004,
+    "type": 161,
+    "method": 3,
+    "value": 3
+  },
+    "170404302": {
+    "conditionCategory": 4004,
+    "type": 209,
+    "method": 4,
+    "value": 401801
+  },
+    "170421100": {
+    "conditionCategory": 0,
+    "type": 3,
+    "method": 3,
+    "value": 1
+  },
+    "170421200": {
+    "conditionCategory": 0,
+    "type": 3,
+    "method": 3,
+    "value": 1
+  },  
+    "170421300": {
+    "conditionCategory": 0,
+    "type": 3,
+    "method": 3,
+    "value": 1
+  }        
+
 }  

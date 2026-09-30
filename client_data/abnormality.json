@@ -9592,18 +9592,39 @@
   "401400": {
     "bySkillCategory": [0],
     "effects": [
-      { "type": 64, "method": 3, "value": 401401 },
-      { "type": 20, "method": 3, "value": 1.4 },
-      { "type": 6, "method": 2, "value": -18 },
-      { "type": 168, "method": 2, "value": -18 },
+      { "type": 20, "method": 3, "value": 2.75 },
+      { "type": 4, "method": 2, "value": 20 },
+      { "type": 162, "method": 3, "value": 0.5 },
       { "type": 21, "method": 1, "value": 0 },
       { "type": 52, "method": 2, "value": 50 },
-      { "type": 113, "method": 3, "value": 1.6 },
       { "type": 264, "method": 0, "value": 401410 },
+      { "type": 6, "method": 3, "value": 1.6 },
+      { "type": 264, "method": 0, "value": 401405 },
+      { "type": 264, "method": 0, "value": 401406 },
+      { "type": 264, "method": 0, "value": 401407 },
       { "type": 264, "method": 0, "value": 401420 },
-      { "type": 264, "method": 0, "value": 401422 }
+      { "type": 264, "method": 0, "value": 401422 },
+      { "type": 264, "method": 0, "value": 401408 },
+      { "type": 113, "method": 3, "value": 1.6 }
     ]
   },
+  "401405": {
+    "bySkillCategory": [4004,4025],
+    "effects": [{ "type": 162, "method": 3, "value": 2 }]
+  },
+  "401406": {
+    "bySkillCategory": [4003],
+    "effects": [
+      { "type": 162, "method": 3, "value": 1 },
+      { "type": 167, "method": 3, "value": 1.05 } 
+  ]
+  },
+    "401407": {
+    "bySkillCategory": [50004002],
+    "effects": [{ "type": 210, "method": 3, "value": 0 }]
+  },
+
+
   "401401": {
     "bySkillCategory": [0],
     "effects": [{ "type": 63, "method": 0, "value": 10000 }]
@@ -53572,7 +53593,7 @@
   },
       "900008": 
     {
-           "comment1":"reborn multi-nostrom",
+           "comment":"reborn multi-nostrom",
         "bySkillCategory": [0],
     "effects": [
       { "type": 317, "method": 0, "value": 1 },
@@ -53592,7 +53613,7 @@
   },
   "21012": 
     {
-   "comment1":"new warrior DG abnormal",
+   "comment":"new warrior DG abnormal",
         "bySkillCategory": [0],
     "effects": [
       { "type": 4, "method": 3, "value": 1 }
@@ -53601,12 +53622,32 @@
   },
   "21072":
   {
-   "comment1":"new warrior DG abnormal",
+   "comment":"new warrior DG abnormal",
         "bySkillCategory": [0],
     "effects": [
       { "type": 4, "method": 3, "value": 1 }
     
     ]
+  },
+    "500990001":
+  {
+   "comment":"Zerk Block",
+        "bySkillCategory": [0],
+    "effects": [
+      { "type": 182, "method": 0, "value": 500990002 },
+      { "type": 182, "method": 0, "value": 500990004 }
+    
+    ]
+  },
+    "499990008":
+  {
+   "comment":"Collosal abnormal",
+        "bySkillCategory": [4040],
+    "effects": [
+      { "type": 335, "method": 0, "value": 0 }
+    
+    ]
   }
+
 }
 
