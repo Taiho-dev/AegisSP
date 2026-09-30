@@ -2866,6 +2866,7 @@ module.exports = {
 					10152010: 3100,
 					10152040: 4100
 				 },
+				noRetry: true,
 			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
@@ -2879,6 +2880,7 @@ module.exports = {
 				triggerAbnormal: { 10152010: 3100,
 					10152040: 4100
 				 },
+				noRetry: true,
 			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
@@ -2926,6 +2928,7 @@ module.exports = {
 				triggerAbnormal: { 
 				10152010: 3100,
 				10152040: 4100 },
+				noRetry: true,
 			//	retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
