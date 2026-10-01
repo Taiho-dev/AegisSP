@@ -2866,14 +2866,19 @@ module.exports = {
 		},
 		7: { // Arcane Barrage
 			1: {
+				abnormalChains: {
+					10152040: 3,
+					10152010: 2,
+					10152011: 2
+				},
 				ignoreAttackSpeed: true,
 				noInterrupt: [7, 20],
 				triggerAbnormal: { 
 					10152010: 3100,
 					10152040: 4100
 				 },
-				noRetry: true,
-			//	retryOnce: true,
+			//	noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2881,13 +2886,16 @@ module.exports = {
 				}
 			},
 			2: {
+				abnormalChains: {
+					10152040: 3
+				},
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100,
 					10152040: 4100
 				 },
-				noRetry: true,
-			//	retryOnce: true,
+			//	noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -2904,7 +2912,12 @@ module.exports = {
 				// },
 				consumeAbnormal: [10152040,10152010],
 				noInterrupt: ['7-3'] },	
-			31: {
+			31: {					
+				abnormalChains: {
+					10152040: 33,
+					10152010: 32,
+					10152011: 32
+				},
 				ignoreAttackSpeed: true,
 				
 				TriggerPreCalculateSpeedAbnormals:
@@ -2921,7 +2934,7 @@ module.exports = {
 					10152010: 3100,
 					10152040: 4100
 				 },
-			//	retryOnce: true,
+				retryOnce: true,
 				 TriggerPreCalculateSpeedAbnormals:
 				 {
 				 	30050 : 3100,
@@ -2929,13 +2942,17 @@ module.exports = {
 				 }
 			},
 			32: {
+				abnormalChains: {
+					10152040: 33
+
+				},
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 
 				10152010: 3100,
 				10152040: 4100 },
-				noRetry: true,
-			//	retryOnce: true,
+			//	noRetry: true,
+				retryOnce: true,
 				TriggerPreCalculateSpeedAbnormals:
 				{
 					30050 : 3100,
@@ -3477,6 +3494,7 @@ module.exports = {
 				noRetry: true
 			},
 			1: {
+				abnormalChains: {10152331: 31},
 				triggerAbnormal: {10152331: 1800},
 				categoryChains: {
 					91002: 30,
@@ -3529,10 +3547,11 @@ module.exports = {
 			},
 			31: {
 				triggerAbnormal: {10152331: 1800},
-				consumeAbnormal:10152331
+				consumeAbnormal: 10152331
 			},
 			50: {
 				requireAbnormal: 10152331,
+				abnormalChains: {10152331: 31},
 				triggerAbnormal: {10152331: 1800},
 				consumeAbnormalEnd: 10152331,
 				connectSkillArrow: true,
