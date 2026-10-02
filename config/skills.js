@@ -2891,7 +2891,8 @@ module.exports = {
 				},
 				ignoreAttackSpeed: true,
 				noInterrupt: [7],
-				triggerAbnormal: { 10152010: 3100,
+				triggerAbnormal: { 
+					10152010: 3100,
 					10152040: 4100
 				 },
 			//	noRetry: true,
@@ -2903,7 +2904,7 @@ module.exports = {
 				}
 			},
 			3: {
-				
+				requireAbnormal: 10152040,
 				// TriggerPreCalculateSpeedAbnormals:
 				// {
 				// 	500100006  : 4000,
@@ -2960,6 +2961,7 @@ module.exports = {
 				}
 			},
 			33: {
+				requireAbnormal: 10152040,
 				ignoreAttackSpeed: false,
 				consumeAbnormal: [10152010,10152040],
 				// TriggerPreCalculateSpeedAbnormals:
@@ -3484,7 +3486,8 @@ module.exports = {
 				// 430103 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
 				// 430130 : {connectToID: 430150, type: 'pending', abnormal: 10152340},
 				// 430150 : {connectToID: 430151, type: 'pending', abnormal: 10152331},
-				 11201  : {connectToID: 430131, type: 'rear', abnormal: 10152331}					
+				 11201  : {connectToID: 430131, type: 'rear', abnormal: 10152331},
+				 11202  : {connectToID: 430131, type: 'rear', abnormal: 10152331}					
 				  },	
 				
 				//length: 1200,
