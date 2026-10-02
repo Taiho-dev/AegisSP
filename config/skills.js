@@ -3516,7 +3516,6 @@ module.exports = {
 				noRetry: true
 			},
 			31: {
-				triggerAbnormal: {10152331: 1800},
 				consumeAbnormal: 10152331
 			},
 			50: {
